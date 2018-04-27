@@ -3,8 +3,8 @@ applications:
   memory: 256M
   instances: 1
   domain: eu-de.mybluemix.net
-  name: FakeNew-Detector
-  host: FakeNew-Detector
+  name: FakeNewsDetector
+  host: FakeNewsDetector
   disk_quota: 1024M
   services:
-  - FakeNew-Detector-cloudantNoSQLDB
+  - FakeNewsDetector-cloudantNoSQLDB
