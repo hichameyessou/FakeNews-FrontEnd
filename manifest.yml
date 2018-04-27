@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 256M
+  instances: 1
+  domain: eu-de.mybluemix.net
+  name: FakeNew-Detector
+  host: FakeNew-Detector
+  disk_quota: 1024M
+  services:
+  - FakeNew-Detector-cloudantNoSQLDB
