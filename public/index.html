@@ -78,11 +78,24 @@
                     <div class="brand">
                         <h1>Fake News Detecor.</h1>
                         <h3>A Badass Fake News Detector based on Watson.</h3>
+                        <br/>
+
+                        <form action='/tweet' method='POST'>
+                          Tweet URL
+                          <br/>
+                          <input class="form-control" placeholder="URL" type="text" name="url-tweet">
+                          <br/>
+                          <button class="btn btn-info" type="submit">
+                            Analize
+                            <div class="ripple-container"></div>
+                          </button>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <div class="main main-raised">
         <div class="section section-basic">
             <div class="container">
