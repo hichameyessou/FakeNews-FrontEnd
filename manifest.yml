@@ -1,10 +1,4 @@
 applications:
-- path: .
+- name: fakenews
+  random-route: true
   memory: 256M
-  instances: 1
-  domain: eu-de.mybluemix.net
-  name: FakeNewsDetector
-  host: FakeNewsDetector
-  disk_quota: 1024M
-  services:
-  - FakeNewsDetector-cloudantNoSQLDB
