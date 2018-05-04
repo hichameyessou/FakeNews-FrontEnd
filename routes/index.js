@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
 	res.render('index', {
 		title: 'Dr.Watson',
-		tag_title_description: 'The fake news huter',
+		tag_title_description: 'The Fake News Inspector',
 		description: 'An AI-based platform to check fake news on twitter via Watson IBM'
 	});
 });
