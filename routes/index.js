@@ -6,7 +6,13 @@ var pick = require('random-pick')
 var router = express.Router();
 var demoTweets = jsonfile.readFileSync('demoTweets.json')
 
+var embedder = require('../embedder');
+//Example
+//getHTML(idTweet, callback)
 
+embedder.getHTML("507185938620219395",function(html){
+	console.log("____________HTML___________"+html);
+});
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
