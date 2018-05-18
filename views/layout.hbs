@@ -380,8 +380,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
                                         //Update the tooltip position and value
                                         d3.select("#tooltip")
-                                                .style("left", (d3.event.pageX+10) + "px")
-                                                .style("top", (d3.event.pageY-10) + "px")
+                                                .style("left", (d3.event.pageX+10-310) + "px")
+                                                .style("top", (d3.event.pageY-10-1250) + "px")
                                                 .select("#value")
                                                 .text("Timestamp: "+rowLabel[d.row-1]+" "+colLabel[d.col-1]+"\ndata:"+d.value+"\nCol-Row-Idx:"+d.col+","+d.row+"\ncell-xy "+this.x.baseVal.value+", "+this.y.baseVal.value);
                                         //Show the tooltip
