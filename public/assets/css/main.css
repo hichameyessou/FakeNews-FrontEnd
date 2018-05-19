@@ -3530,7 +3530,7 @@ body.is-loading #sidebar nav ul li {
 /* ABOUT US */
 
 .team {
-  height: 203px;
+  min-height: 270px;
   margin: auto;
 }
 
@@ -3543,7 +3543,7 @@ body.is-loading #sidebar nav ul li {
 }
 
 .card img {
-  width: 100px;
+  width: 120px;
   border-radius: 50%;
   border: 3px solid #fff;
 }
@@ -3565,4 +3565,18 @@ body.is-loading #sidebar nav ul li {
 .card p {
   font-style: italic;
   font-size: 16px;
+}
+
+.card a {
+  border: 0;
+}
+
+.team ul {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+}
+
+.team ul li {
+  display: inline-block;
 }
