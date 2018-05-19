@@ -3580,3 +3580,23 @@ body.is-loading #sidebar nav ul li {
 .team ul li {
   display: inline-block;
 }
+
+/* CONTACTS */
+
+.externalLogosBlock {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  text-align: right;
+}
+
+.externalLogos {
+  width: 100%;
+  min-height: 80px;
+}
+
+.externalLogos a {
+  border: 0;
+}
