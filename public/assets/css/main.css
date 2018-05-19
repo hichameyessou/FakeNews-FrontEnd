@@ -2213,7 +2213,7 @@ input[type="radio"]+label:before {
   width: 100%;
 }
 
-.img.round{
+.img.round {
   border-radius: 50%;
 }
 
@@ -2811,7 +2811,7 @@ table.alt tfoot {
 }
 
 .wrapper.style4 {
-  background-color: #006699;
+  background: linear-gradient(to bottom right, #042C47, #0F4A74);
 }
 
 .wrapper.style4-alt {
@@ -3525,4 +3525,44 @@ body.is-loading #sidebar nav ul li {
 .demoFakeTweets .tweet3 {
   top: 60px;
   left: 60px;
+}
+
+/* ABOUT US */
+
+.team {
+  height: 203px;
+  margin: auto;
+}
+
+.first-row {
+  width: 900px;
+}
+
+.second-row {
+  width: 1200px;
+}
+
+.card img {
+  width: 100px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+}
+
+.card {
+  width: 300px;
+  float: left;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card h3, .card p {
+  font-family: "Avenir Next";
+  font-size: 18px;
+  font-weight: 100;
+  margin: 0;
+}
+
+.card p {
+  font-style: italic;
+  font-size: 16px;
 }

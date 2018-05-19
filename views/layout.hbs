@@ -32,7 +32,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 					<li><a href="#one">Try a fake news</a></li>
 					<li><a href="#two">Some Statistics</a></li>
 					<li><a href="#three">Meet the team</a></li>
-					<li><a href="#four">Meet the team</a></li>
+					<li><a href="#four">Contacts</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -140,7 +140,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 			<div class="inner stats">
 				<h2>Stats</h2>
 				<p>Here are some graph representing our dataset and the statistics carried out with the analysis of the tweets.</p>
-				
+
 				<div id="timelineGraph"></div>
 
 				<meta charset="utf-8">
@@ -222,7 +222,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
 				d3.json("timeline.json", function(error, data) {
 					if (error) throw error;
-					
+
 					data.forEach(function(d) {
 						d.date = parseDate(d.date);
 						d.quantity = +d.quantity;
@@ -459,9 +459,49 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 			<!-- Three -->
 			<section id="three" class="wrapper style4 fade-up">
 				<div class="inner">
-					<h2>Meet The Team</h2>
-					<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-					<!-- <div class="split style1">
+					<h2>Meet the teem</h2>
+					<div class="team first-row">
+						<div class="card">
+							<img src="images/us/gioele_bigini.jpg">
+							<h3>Gioele Bigini</h3>
+							<p>Front-end & Data visualization</p>
+						</div>
+						<div class="card">
+							<img src="images/us/gioele_bigini.jpg">
+							<h3>Gioele Bigini</h3>
+							<p>Front-end & Data visualization</p>
+						</div>
+						<div class="card">
+							<img src="images/us/gioele_bigini.jpg">
+							<h3>Gioele Bigini</h3>
+							<p>Front-end & Data visualization</p>
+						</div>
+					</div>
+					<div class="team second-row">
+						<div class="card">
+							<img src="images/us/gioele_bigini.jpg">
+							<h3>Gioele Bigini</h3>
+							<p>Front-end & Data visualization</p>
+						</div>
+						<div class="card">
+							<img src="images/us/gioele_bigini.jpg">
+							<h3>Gioele Bigini</h3>
+							<p>Front-end & Data visualization</p>
+						</div>
+						<div class="card">
+							<img src="images/us/gioele_bigini.jpg">
+							<h3>Gioele Bigini</h3>
+							<p>Front-end & Data visualization</p>
+						</div>
+						<div class="card">
+							<img src="images/us/gioele_bigini.jpg">
+							<h3>Gioele Bigini</h3>
+							<p>Front-end & Data visualization</p>
+						</div>
+					</div>
+
+					<!-- <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
+					<div class="split style1">
 						<section>
 							<form method="post" action="#">
 								<div class="field half first">
@@ -514,7 +554,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 			</section>
 			<section id="four" class="wrapper style3 fade-up">
 				<div class="inner">
-					<h2>sd</h2>
+					<h2>Contacts</h2>
 					<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
 				</div>
 			</section>
