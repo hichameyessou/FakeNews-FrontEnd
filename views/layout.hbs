@@ -356,7 +356,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                                     .text(function (d) { return d; })
                                     // Giocare col parametro 7 per centrare
                                     .attr("x", function (d, i) { return i * cellWidth + (cellWidth-(d.length*7))/2; })
-                                    .attr("y", cellHeight*25)
+                                    .attr("y", cellHeight*25.25)
                                     .style("text-anchor", "left")
                                     .attr("class",  function (d,i) { return "colLabel mono c"+i;} )
                                     .on("mouseover", function(d) {d3.select(this).classed("text-hover",true);})
@@ -381,9 +381,9 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                                         //Update the tooltip position and value
                                         d3.select("#tooltip")
                                                 .style("left", (d3.event.pageX+10-310) + "px")
-                                                .style("top", (d3.event.pageY-10-1250) + "px")
+                                                .style("top", (d3.event.pageY-10-1550) + "px")
                                                 .select("#value")
-                                                .text("Timestamp: "+rowLabel[d.row-1]+" "+colLabel[d.col-1]+"\ndata:"+d.value+"\nCol-Row-Idx:"+d.col+","+d.row+"\ncell-xy "+this.x.baseVal.value+", "+this.y.baseVal.value);
+                                                .text("Quantity: "+d.value);
                                         //Show the tooltip
                                         d3.select("#tooltip").classed("hidden", false);
                                     })
