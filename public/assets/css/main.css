@@ -3534,12 +3534,8 @@ body.is-loading #sidebar nav ul li {
   margin: auto;
 }
 
-.first-row {
-  width: 900px;
-}
-
-.second-row {
-  width: 1200px;
+.first-row, .second-row {
+  width: 100%;
 }
 
 .card img {
@@ -3548,8 +3544,17 @@ body.is-loading #sidebar nav ul li {
   border: 3px solid #fff;
 }
 
-.card {
-  width: 300px;
+.card-first-row {
+  min-width: 200px;
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.card-second-row {
+  min-width: 200px;
+  width: 25%;
   float: left;
   text-align: center;
   margin-bottom: 30px;
