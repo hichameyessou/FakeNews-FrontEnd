@@ -3621,16 +3621,31 @@ body.is-loading #sidebar nav ul li {
 
 .externalLogosBlock {
   float: left;
-  width: 50%;
+  width: 80%;
 }
 
 .right {
+  width: 20%;
+  min-width: 100px;
   text-align: right;
+}
+
+@media screen and (max-width: 825px) {
+  .externalLogosBlock {
+    text-align: left;
+    width: 100%;
+  }
 }
 
 .externalLogos {
   width: 100%;
   min-height: 80px;
+}
+
+@media screen and (max-width: 825px) {
+  .externalLogos {
+    min-height: 200px;
+  }
 }
 
 .externalLogos a {
