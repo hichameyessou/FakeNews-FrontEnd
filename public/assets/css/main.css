@@ -3530,9 +3530,23 @@ body.is-loading #sidebar nav ul li {
 /* ABOUT US */
 
 .team {
-  min-height: 270px;
+  min-height: 500px;
   margin: auto;
 }
+
+@media screen and (max-width: 825px) {
+  .team {
+    min-height: 1100px;
+    margin: auto;
+  }
+}
+
+/* @media screen and (max-width: 825px) {
+  .team {
+    min-height: 1100px;
+    margin: auto;
+  }
+} */
 
 .first-row, .second-row {
   width: 100%;
@@ -3545,19 +3559,36 @@ body.is-loading #sidebar nav ul li {
 }
 
 .card-first-row {
-  min-width: 200px;
+  min-width: 232px;
   width: 33.3%;
   float: left;
   text-align: center;
   margin-bottom: 30px;
 }
 
+@media screen and (max-width: 825px) {
+  .card-first-row {
+    min-width: 160px;
+    width: 50%;
+  }
+}
+
 .card-second-row {
-  min-width: 200px;
+  min-width: 169px;
   width: 25%;
   float: left;
   text-align: center;
   margin-bottom: 30px;
+}
+
+@media screen and (max-width: 825px) {
+  .card {
+    height: 240px;
+  }
+  .card-second-row {
+    min-width: 160px;
+    width: 50%;
+  }
 }
 
 .card h3, .card p {
