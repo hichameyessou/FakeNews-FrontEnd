@@ -3619,6 +3619,25 @@ body.is-loading #sidebar nav ul li {
 
 /* CONTACTS */
 
+.learn-more {
+  width: 500px;
+  margin: auto auto 1em auto;
+  text-align: center;
+}
+
+.learn-more a {
+  min-width: 217px;
+}
+
+@media screen and (max-width: 480px) {
+  .learn-more {
+    width: 100%;
+  }
+  .learn-more a {
+    min-width: 80%;
+  }
+}
+
 .externalLogosBlock {
   float: left;
   width: 80%;
