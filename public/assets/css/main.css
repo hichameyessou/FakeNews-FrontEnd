@@ -3498,6 +3498,12 @@ body.is-loading #sidebar nav ul li {
   width: 500px;
 }
 
+@media screen and (max-width: 600px) {
+  .demoFakeTweets img {
+    width: 100%;
+  }
+}
+
 .demoTweet {
   position: absolute;
 }
@@ -3568,7 +3574,7 @@ body.is-loading #sidebar nav ul li {
 
 @media screen and (max-width: 825px) {
   .card-first-row {
-    min-width: 160px;
+    min-width: 100px;
     width: 50%;
   }
 }
@@ -3586,7 +3592,7 @@ body.is-loading #sidebar nav ul li {
     height: 240px;
   }
   .card-second-row {
-    min-width: 160px;
+    min-width: 100px;
     width: 50%;
   }
 }
