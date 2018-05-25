@@ -16,7 +16,6 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css" />
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
 
@@ -49,7 +48,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 			<div class="inner">
 				<h1>{{ title }}</h1>
 				<p>{{ description }}&trade;</p>
-				 <div class="tweetForm">
+				 <!-- <div class="tweetForm">
 					<div class="style1 ">
 						<section>
 							<form name="TweetURL" method="post" action="/tweet">
@@ -64,7 +63,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 							</form>
 						</section>
 					</div>
-				</div>
+				</div>-->
 				<section>
 					<div class="tweetForm">
 						<ul class="actions">
@@ -79,63 +78,22 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 			<div class="inner">
 					<!-- <h2>What is it about </h2>
 						<p>You are a fake news</p> -->
-						<h1>Check out this demo</h1>
-						<p>Fake news are important part of our daily life bla bla bla</p>
+						<h2>Check out this demo</h2>
+						<p>Click on a news to let Mr.Watson decide whether is hoax</p>
 						<div class="split style1">
 							<div class="field half first">
-
 								<div class="demoFakeTweets">
 									{{#each demoTweets}}
 									<div class="demoTweet tweet{{@index}}"><img src="images/DemoTweets-Web/{{tweet_id}}.png" /></div>
 									{{/each}}
-									<!-- <div class="demoTweet tweet1"><img src="images/tweetDemo1.png" /></div>
-									<div class="demoTweet tweet2"><img src="images/tweetDemo2.png" /></div>
-									<div class="demoTweet tweet3"><img src="images/tweetDemo3.png" /></div> -->
 								</div>
 
 								<ul class="actions">
-									<li><a href="" class="button submit" id="loadMoreDemoTweets">Load more</a></li>
+									<li><a onclick="javascript:location.reload();" class="button" id="loadMoreDemoTweets">Load more</a></li>
 								</ul>
 							</div>
 						</div>
 					</div>
-
-				<!-- <section>
-					<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
-					<div class="content">
-						<div class="inner">
-							<h2>Sed ipsum dolor</h2>
-							<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-							<ul class="actions">
-								<li><a href="#" class="button">Learn more</a></li>
-							</ul>
-						</div>
-					</div>
-			</section>
-			<section>
-				<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-				<div class="content">
-					<div class="inner">
-						<h2>Feugiat consequat</h2>
-						<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn more</a></li>
-						</ul>
-					</div>
-				</div>
-			</section>
-			<section>
-				<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-				<div class="content">
-					<div class="inner">
-						<h2>Ultricies aliquam</h2>
-						<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-						<ul class="actions">
-							<li><a href="#" class="button">Learn more</a></li>
-						</ul>
-					</div>
-				</div>
-			</section> -->
 		</section>
 		<staticContent>
 			<mimeMap fileExtension=".json" mimeType="application/json" />

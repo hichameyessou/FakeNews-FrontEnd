@@ -3456,7 +3456,7 @@ body.is-loading #sidebar nav ul li {
 .tweetForm {
   text-align: center;
   width: 50%;
-  margin: auto;
+  margin: 20px auto;
 }
 
 .tweetForm section {
