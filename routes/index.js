@@ -4,7 +4,7 @@ var pick = require('random-pick')
 
 
 var router = express.Router();
-var demoTweets = jsonfile.readFileSync('demoTweets.json')
+var demoTweets = jsonfile.readFileSync('demoTweets.json', 'utf8')
 
 var embedder = require('../embedder');
 //Example

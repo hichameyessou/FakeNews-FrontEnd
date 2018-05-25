@@ -85,11 +85,14 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 							<div class="field half first">
 
 								<div class="demoFakeTweets">
-									<div class="demoTweet tweet1"><img src="images/tweetDemo1.png" /></div>
+									{{#each demoTweets}}
+									<div class="demoTweet tweet{{@index}}"><img src="images/DemoTweets-Web/{{tweet_id}}.png" /></div>
+									{{/each}}
+									<!-- <div class="demoTweet tweet1"><img src="images/tweetDemo1.png" /></div>
 									<div class="demoTweet tweet2"><img src="images/tweetDemo2.png" /></div>
-									<div class="demoTweet tweet3"><img src="images/tweetDemo3.png" /></div>
+									<div class="demoTweet tweet3"><img src="images/tweetDemo3.png" /></div> -->
 								</div>
-								{{#each demoTweets}} {{tweet_id}} {{/each}}
+
 								<ul class="actions">
 									<li><a href="" class="button submit" id="loadMoreDemoTweets">Load more</a></li>
 								</ul>

@@ -3508,27 +3508,27 @@ body.is-loading #sidebar nav ul li {
   position: absolute;
 }
 
-.demoFakeTweets .tweet1 {
+.demoFakeTweets .tweet0 {
   top: 0px;
   left: 0px;
   transition: top 1s ease;
 }
 
-.demoFakeTweets .tweet1:hover {
+.demoFakeTweets .tweet0:hover {
   top: -140px;
 }
 
-.demoFakeTweets .tweet2 {
+.demoFakeTweets .tweet1 {
   top: 30px;
   left: 30px;
   transition: top 1s ease;
 }
 
-.demoFakeTweets .tweet2:hover {
+.demoFakeTweets .tweet1:hover {
   top: -110px;
 }
 
-.demoFakeTweets .tweet3 {
+.demoFakeTweets .tweet2 {
   top: 60px;
   left: 60px;
 }
