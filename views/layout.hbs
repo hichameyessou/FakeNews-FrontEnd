@@ -104,97 +104,21 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 				<h2>Stats</h2>
 				<p>Here are some graph representing our dataset and the statistics carried out with the analysis of the tweets.</p>
 
-
-
 				<div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-
-
-				<meta charset="utf-8">
-				<style>
-
-				.axis path,
-				.axis line {
-					fill: none;
-					stroke: #015984;
-					shape-rendering: crispEdges;
-				}
-
-				.x.axis path {
-					display: none;
-				}
-
-				.line {
-					fill: none;
-					stroke: steelblue;
-					stroke-width: 1.5px;
-				}
-
-				.overlay {
-					fill: none;
-					pointer-events: all;
-				}
-
-				.focus circle {
-					fill: none;
-					stroke: steelblue;
-				}
-
-				.centerGraph {
-					margin : 0 auto;
-				}
-				.svg {
-					display: block;
-					margin: 0 auto;
-				}
-
-			</style>
-
-
-            <div id="tooltip" class="hidden">
-                <p><span id="value"/></p>
+                <div class="wrapper">
+                    <div id="container2" style="height: 400px; min-width: 310px; max-width: 800px; margin: 0 auto; margin-top: 2em;"></div>
+                </div>
             </div>
+        </section>
+                <!--
+                            <div id="tooltip" class="hidden">
+                                <p><span id="value"/></p>
+                            </div>
 
-            <div id="chart" style='overflow:auto;'></div>
+                            <div id="chart" style='overflow:auto;'></div>-->
 
-					<!-- <div class="features">
-						<section>
-							<span class="icon major fa-code"></span>
-							<h3>Lorem ipsum amet</h3>
-							<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-						</section>
-						<section>
-							<span class="icon major fa-lock"></span>
-							<h3>Aliquam sed nullam</h3>
-							<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-						</section>
-						<section>
-							<span class="icon major fa-cog"></span>
-							<h3>Sed erat ullam corper</h3>
-							<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-						</section>
-						<section>
-							<span class="icon major fa-desktop"></span>
-							<h3>Veroeros quis lorem</h3>
-							<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-						</section>
-						<section>
-							<span class="icon major fa-chain"></span>
-							<h3>Urna quis bibendum</h3>
-							<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-						</section>
-						<section>
-							<span class="icon major fa-diamond"></span>
-							<h3>Aliquam urna dapibus</h3>
-							<p>Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.</p>
-						</section>
-					</div>
-					<ul class="actions">
-						<li><a href="#" class="button">Learn more</a></li>
-					</ul>
-				</div> -->
-			</section>
 
-			<!-- Three -->
+                            <!-- Three -->
 			<section id="three" class="wrapper style4 fade-up">
 				<div class="inner">
 					<h2>Meet the team</h2>
@@ -386,10 +310,12 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 		<!-- Graph scripts -->
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 		<script src="https://code.highcharts.com/highcharts.js"></script>
+        <script src="https://code.highcharts.com/modules/heatmap.js"></script>
 		<script src="https://code.highcharts.com/modules/exporting.js"></script>
 		<script src="https://code.highcharts.com/modules/export-data.js"></script>
 		<script src="//d3js.org/d3.v3.min.js"></script>
 		<script src="assets/js/heatmap.js"></script>
+        <script src="assets/js/heatmap2.js"></script>
 		<script src="assets/js/timeline.js"></script>
 	</body>
 
