@@ -2474,7 +2474,7 @@ header h4+p, header h5+p, header h6+p {
 
 /* Split */
 
-.split {
+/* .split {
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -2549,7 +2549,7 @@ header h4+p, header h5+p, header h6+p {
     margin: 3em 0 0 0;
     padding: 3em 0 0 0;
   }
-}
+} */
 
 /* Spotlights */
 
@@ -3489,23 +3489,50 @@ body.is-loading #sidebar nav ul li {
 
 /* PAGE2 */
 
+.demo {
+  width: 100%
+}
+
+.demo .first, .demo .response {
+  float: left;
+  width: 50%;
+  min-height: 240px;
+  text-align: center;
+}
+
 .demoFakeTweets {
   position: relative;
-  min-height: 300px;
 }
 
 .demoFakeTweets img {
-  width: 500px;
+  max-width: 500px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1491px) {
   .demoFakeTweets img {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 1281px) {
+  .demo .first, .demo .response {
     width: 100%;
+  }
+  .demoFakeTweets img {
+    width: 90%;
+    max-width: 500px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .demo .first, .demo .response {
+    min-height: 240px;
   }
 }
 
 .demoTweet {
   position: absolute;
+  cursor: pointer;
 }
 
 .demoFakeTweets .tweet0 {
@@ -3531,6 +3558,27 @@ body.is-loading #sidebar nav ul li {
 .demoFakeTweets .tweet2 {
   top: 60px;
   left: 60px;
+}
+
+.response {
+  display: none;
+  background-color: #555;
+  transition: all 2s linear;
+}
+
+.show {
+  display: block;
+  -webkit-animation: slide-down 1s ease-out;
+  -moz-animation: slide-down 1s ease-out;
+}
+
+@-webkit-keyframes slide-down {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /* ABOUT US */
