@@ -1,8 +1,8 @@
 var margin = { top: 50, right: 20, bottom: 30, left: 100 },
-cellWidth=40
-cellHeight=10
-col_number=7;
-row_number=24;
+cellWidth=40,
+cellHeight=10,
+col_number=7,
+row_number=24,
 
 width = cellWidth * col_number, // - margin.left - margin.right,
 height = cellHeight * row_number , // - margin.top - margin.bottom,
@@ -14,9 +14,9 @@ colors = ['rgba(5,240,230,0)',
 'rgba(5,240,230,0.05)','rgba(5,240,230,0.1)','rgba(5,240,230,0.15)','rgba(5,240,230,0.2)','rgba(5,240,230,0.25)',
 'rgba(5,240,230,0.3)','rgba(5,240,230,0.35)','rgba(5,240,230,0.4)','rgba(5,240,230,0.45)','rgba(5,240,230,0.5)',
 'rgba(5,240,230,0.55)','rgba(5,240,230,0.6)','rgba(5,240,230,0.65)','rgba(5,240,230,0.7)','rgba(5,240,230,0.75)',
-'rgba(5,240,230,0.8)','rgba(5,240,230,0.85)','rgba(5,240,230,0.9)','rgba(5,240,230,0.95)','rgba(5,240,230,1)']
+'rgba(5,240,230,0.8)','rgba(5,240,230,0.85)','rgba(5,240,230,0.9)','rgba(5,240,230,0.95)','rgba(5,240,230,1)'],
 rowLabel = ['00:00 AM','01:00 AM','02:00 AM','03:00 AM','04:00 AM','05:00 AM','06:00 AM','07:00 AM','08:00 AM','09:00 AM','10:00 AM','11:00 AM',
-'00:00 PM','01:00 PM','02:00 PM','03:00 PM','04:00 PM','05:00 PM','06:00 PM','07:00 PM','08:00 PM','09:00 PM','10:00 PM','11:00 PM']
+'12:00 AM','01:00 PM','02:00 PM','03:00 PM','04:00 PM','05:00 PM','06:00 PM','07:00 PM','08:00 PM','09:00 PM','10:00 PM','11:00 PM'],
 colLabel = ['Mon','Tue','Wed','Thu','Fri','Sat','Sun'];
 
 d3.tsv("data_heatmap.tsv",
