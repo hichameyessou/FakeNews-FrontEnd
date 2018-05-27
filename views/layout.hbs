@@ -39,9 +39,10 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 				<ul>
 					<li><a href="#intro">Welcome to {{ title }}</a></li>
 					<li><a href="#one">Try a fake news</a></li>
-					<li><a href="#two">Some Statistics</a></li>
-					<li><a href="#three">Meet the team</a></li>
-					<li><a href="#four">Deliverable & contact</a></li>
+					<li><a href="#two">How it works</a></li>
+					<li><a href="#three">Some Statistics</a></li>
+					<li><a href="#four">Meet the team</a></li>
+					<li><a href="#five">Deliverable & contact</a></li>
 				</ul>
 			</nav>
 		</div>
@@ -75,7 +76,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 				<section>
 					<div class="tweetForm">
 						<ul class="actions">
-							<li><a href="#one" class="button scrolly">Show me an example</a></li>
+							<li><a href="#one" class="button scrolly"><i class="fas fa-comment"></i> Show me an example</a></li>
 						</ul>
 					</div>
 				</section>
@@ -116,24 +117,44 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 									<i class="fas fa-thumbs-up"></i>
 								</div>
 								<h2>Real News</h2>
-								<p>Dr.Watson asserted that this is a real news with 29% of confidence<br />The prevailing feeling is: <b>Joy</b></p>
+								<p>Dr.Watson says that this news is real with 29% of confidence<br />The prevailing feeling is: <b>Joy 😁</b></p>
 							</div>
 						</div>
 					</div>
 					<div style="clear: both;"></div>
 
 				</div>
-
+				<div class="resultLoaded">
+					<ul class="actions learn-more">
+						<li><a href="" target="_blank" class="button"><i class="fas fa-link"></i> Go to the tweet</a></li>
+						<li>
+							<button id="quitDemo" class="button"><i class="fas fa-sign-out-alt"></i> Quit this demo</button>
+						</li>
+					</ul>
+				</div>
 				<ul class="actions">
-					<li><a onclick="javascript:location.reload();" class="button" id="loadMoreDemoTweets">Load more</a></li>
+					<li><a onclick="javascript:location.reload();" class="button" id="loadMoreDemoTweets"><i class="fas fa-sync"></i> Load more</a></li>
 				</ul>
 			</div>
 		</section>
+
+		<!-- Two -->
+		<section id="two" class="wrapper style5 fade-up">
+			<div class="inner">
+				<h2>How it works</h2>
+				<p>When a demo tweet is selected, all its data are passed through the main server that identifies the news linked and returns the main feeling expressed in the tweet, the prediction on whether the news is real or not and a certain level of confidence.</p>
+				<div class="howitworks-graph"><img src="images/howItWorks.png" /></div>
+				<br />
+				<p>Dr.Watson is a complex piece of engineering developed with three different programming languages: Python, Java and Javascript.</p>
+		</section>
+
+
+
 		<staticContent>
 			<mimeMap fileExtension=".json" mimeType="application/json" />
 		</staticContent>
-		<!-- Two -->
-		<section id="two" class="wrapper style3 fade-up">
+		<!-- three -->
+		<section id="three" class="wrapper style3 fade-up">
 			<div class="inner stats">
 				<h2>Statistics</h2>
 				<p>Here are some graph representing our dataset and the statistics carried out with the analysis of the tweets.</p>
@@ -157,8 +178,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
                             <div id="chart" style='overflow:auto;'></div>-->
 
 
-		<!-- Three -->
-		<section id="three" class="wrapper style4 fade-up">
+		<!-- four -->
+		<section id="four" class="wrapper style4 fade-up">
 			<div class="inner">
 				<h2>Meet the team</h2>
 				<div class="team">
@@ -237,70 +258,17 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 					</div>
 				</div>
 		</section>
-
-		<!-- <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit quis lorem.</p>
-					<div class="split style1">
-						<section>
-							<form method="post" action="#">
-								<div class="field half first">
-									<label for="name">Name</label>
-									<input type="text" name="name" id="name" />
-								</div>
-								<div class="field half">
-									<label for="email">Email</label>
-									<input type="text" name="email" id="email" />
-								</div>
-								<div class="field">
-									<label for="message">Message</label>
-									<textarea name="message" id="message" rows="5"></textarea>
-								</div>
-								<ul class="actions">
-									<li><a href="" class="button submit">Send Message</a></li>
-								</ul>
-							</form>
-						</section>
-						<section>
-							<ul class="contact">
-								<li>
-									<h3>Address</h3>
-									<span>12345 Somewhere Road #654<br />
-											Nashville, TN 00000-0000<br />
-											USA</span>
-								</li>
-								<li>
-									<h3>Email</h3>
-									<a href="#">user@untitled.tld</a>
-								</li>
-								<li>
-									<h3>Phone</h3>
-									<span>(000) 000-0000</span>
-								</li>
-								<li>
-									<h3>Social</h3>
-									<ul class="icons">
-										<li><a href="#" class="fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="fa-facebook"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="fa-github"><span class="label">GitHub</span></a></li>
-										<li><a href="#" class="fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="fa-linkedin"><span class="label">LinkedIn</span></a></li>
-									</ul>
-								</li>
-							</ul>
-						</section>
-					</div>
-				</div> -->
-		</section>
-		<section id="four" class="wrapper style3 fade-up">
+		<section id="five" class="wrapper style3 fade-up">
 			<div class="inner">
 				<h2>Deliverable and contact</h2>
 				<p></p>
 				<ul class="actions learn-more">
-					<li><a href="midPresentation/index.html" class="button scrolly">Mid check slides</a></li>
-					<li><a href="" class="button scrolly">Final pitch slides</a></li>
+					<li><a href="midPresentation/index.html" target="_blank" class="button scrolly"><i class="far fa-image"></i> Mid check slides</a></li>
+					<li><a href="" target="_blank" class="button scrolly"><i class="far fa-images"></i> Final pitch slides</a></li>
 				</ul>
 				<ul class="actions learn-more">
-					<li><a href="" class="button scrolly">Final document</a></li>
-					<li><a href="mailto:watson@ioo.ovh" class="button scrolly">Contact us</a></li>
+					<li><a href="" target="_blank" class="button scrolly"><i class="far fa-file-alt"></i> Final document</a></li>
+					<li><a href="mailto:watson@ioo.ovh" class="button scrolly"><i class="far fa-envelope"></i> Contact us</a></li>
 				</ul>
 
 			</div>
