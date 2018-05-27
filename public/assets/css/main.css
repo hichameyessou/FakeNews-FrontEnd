@@ -3581,7 +3581,7 @@ body.is-loading #sidebar nav ul li {
 
 .response {
   display: none;
-  background-color: #555;
+  /* background-color: #555; */
   transition: all 2s linear;
 }
 
@@ -3591,12 +3591,52 @@ body.is-loading #sidebar nav ul li {
   -moz-animation: slide-down 1s ease-out;
 }
 
+.hide {
+  display: none;
+}
+
 @-webkit-keyframes slide-down {
   0% {
     opacity: 0;
   }
   100% {
     opacity: 1;
+  }
+}
+
+.resultLoader {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+}
+
+.part {
+  width: 180px;
+  position: absolute;
+}
+
+.svgpath {
+  fill: rgba(145, 220, 90, 0);
+  stroke: #fff;
+  stroke-width: 1.5px;
+  stroke-dasharray: 1000;
+  stroke-linecap: round;
+  z-index: 2;
+}
+
+.svgbg {
+  fill: rgba(255, 255, 255, 0.2);
+  z-index: 1;
+}
+
+#playload {
+  animation: dash 2.5s reverse ease-in-out infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 2000;
   }
 }
 
