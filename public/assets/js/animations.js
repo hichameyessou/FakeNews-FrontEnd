@@ -16,7 +16,11 @@ var demotweet = function(e) {
 	$(".response").fadeIn(500)
 	setTimeout(function() {
 		$(".part").hide();
-		$("#resultLoadedTweet" + e.data.care).show();
+		$(".resultLoadedTweet" + e.data.care).show();
+		$("#goToTweet").attr("href", "https://twitter.com/Twitter/status/".concat($(".resultLoadedTweet" + e.data.care).attr('id')));
+		$(".resultLoadedButtons").show();
+
+
 		$(care).on('click', quitAllDemo);
 	}, 3000);
 }
