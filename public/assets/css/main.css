@@ -3496,7 +3496,7 @@ body.is-loading #sidebar nav ul li {
 .demo .first, .demo .response {
   float: left;
   width: 50%;
-  min-height: 240px;
+  min-height: 260px;
   text-align: center;
 }
 
@@ -3512,6 +3512,9 @@ body.is-loading #sidebar nav ul li {
   .demoFakeTweets img {
     max-width: 440px;
   }
+  .demo .first, .demo .response {
+    min-height: 240px;
+  }
 }
 
 @media screen and (max-width: 1281px) {
@@ -3522,11 +3525,23 @@ body.is-loading #sidebar nav ul li {
     width: 90%;
     max-width: 500px;
   }
+  .demo .response {
+    margin-top: -50px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
   .demo .first, .demo .response {
     min-height: 240px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .demoFakeTweets img {
+    width: 100%;
+  }
+  .demo .response {
+    margin-top: -80px;
   }
 }
 
@@ -3558,6 +3573,12 @@ body.is-loading #sidebar nav ul li {
 .demoFakeTweets .tweet2 {
   top: 60px;
   left: 60px;
+}
+
+@media screen and (max-width: 480px) {
+  .demoFakeTweets .tweet1, .demoFakeTweets .tweet2 {
+    left: 0;
+  }
 }
 
 .response {
