@@ -3496,7 +3496,7 @@ body.is-loading #sidebar nav ul li {
 .demo .first, .demo .response {
   float: left;
   width: 50%;
-  min-height: 240px;
+  min-height: 280px;
   text-align: center;
 }
 
@@ -3512,6 +3512,9 @@ body.is-loading #sidebar nav ul li {
   .demoFakeTweets img {
     max-width: 440px;
   }
+  .demo .first, .demo .response {
+    min-height: 260px;
+  }
 }
 
 @media screen and (max-width: 1281px) {
@@ -3522,17 +3525,28 @@ body.is-loading #sidebar nav ul li {
     width: 90%;
     max-width: 500px;
   }
+  .demo .response {
+    margin-top: -50px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
-  .demo .first, .demo .response {
-    min-height: 240px;
+  .demo .first, .demo .response {}
+}
+
+@media screen and (max-width: 475px) {
+  .demoFakeTweets img {
+    width: 100%;
+  }
+  .demo .response {
+    margin-top: -80px;
   }
 }
 
 .demoTweet {
   position: absolute;
   cursor: pointer;
+  transition: top 1s, left 1s ease;
 }
 
 .demoFakeTweets .tweet0 {
@@ -3560,9 +3574,21 @@ body.is-loading #sidebar nav ul li {
   left: 60px;
 }
 
+.positionZero {
+  top: 0px !important;
+  left: 0px !important;
+  transition: top 1s, left 1s ease;
+}
+
+@media screen and (max-width: 480px) {
+  .demoFakeTweets .tweet1, .demoFakeTweets .tweet2 {
+    left: 0;
+  }
+}
+
 .response {
   display: none;
-  background-color: #555;
+  /* background-color: #555; */
   transition: all 2s linear;
 }
 
@@ -3572,6 +3598,10 @@ body.is-loading #sidebar nav ul li {
   -moz-animation: slide-down 1s ease-out;
 }
 
+.hide {
+  display: none;
+}
+
 @-webkit-keyframes slide-down {
   0% {
     opacity: 0;
@@ -3579,6 +3609,73 @@ body.is-loading #sidebar nav ul li {
   100% {
     opacity: 1;
   }
+}
+
+.resultLoader {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  left: 56%;
+}
+
+.part {
+  width: 180px;
+  position: absolute;
+}
+
+.svgpath {
+  fill: rgba(145, 220, 90, 0);
+  stroke: #fff;
+  stroke-width: 1.5px;
+  stroke-dasharray: 1000;
+  stroke-linecap: round;
+  z-index: 2;
+}
+
+.svgbg {
+  fill: rgba(255, 255, 255, 0.2);
+  z-index: 1;
+}
+
+#playload {
+  animation: dash 2.5s reverse ease-in-out infinite;
+}
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 2000;
+  }
+}
+
+.resultLoaded {
+  display: none;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin: auto;
+}
+
+.green {
+  background: #4ebb25;
+}
+
+.red {
+  background: #d42525;
+}
+
+.circle i {
+  position: relative;
+  top: 30px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.resultLoaded h2 {
+  margin-bottom: 0;
 }
 
 /* ABOUT US */

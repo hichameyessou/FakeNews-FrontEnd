@@ -332,6 +332,11 @@ Highcharts.chart('container3', {
     subtitle: {
         //text: 'Qualitative view (about a quarter of the dataset has been considered)'
     },
+
+    credits: {
+        enabled: false
+    },
+
     series: [{
         type: "sunburst",
         data: data,
