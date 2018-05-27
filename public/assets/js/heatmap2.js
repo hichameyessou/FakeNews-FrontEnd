@@ -8,6 +8,9 @@ Highcharts.chart('container2', {
         plotBorderWidth: 1
     },
 
+    credits: {
+        enabled: false
+    },
 
     title: {
         text: 'News spread during days over the week'
