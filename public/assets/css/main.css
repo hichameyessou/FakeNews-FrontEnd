@@ -2818,6 +2818,14 @@ table.alt tfoot {
   background-color: #3e4094;
 }
 
+.wrapper.style5 {
+  background: linear-gradient(to bottom right, #0b4d79, #073e65);
+}
+
+.wrapper.style5-alt {
+  background-color: #3e4094;
+}
+
 .wrapper.fullscreen {
   display: -moz-flex;
   display: -webkit-flex;
@@ -3676,6 +3684,23 @@ body.is-loading #sidebar nav ul li {
 
 .resultLoaded h2 {
   margin-bottom: 0;
+}
+
+/* HOW IT WORKS */
+
+.howitworks-graph {
+  text-align: center;
+}
+
+.howitworks-graph img {
+  width: 80%;
+  max-width: 900px;
+}
+
+@media screen and (max-width: 730px) {
+  .howitworks-graph img {
+    width: 100%;
+  }
 }
 
 /* ABOUT US */
