@@ -1,44 +1,39 @@
-var demotweet2 = function(e) {
-	$(".resultLoaded").hide();
-	$(".tweet2").off();
-	$(".tweet0").toggle()
-	$(".tweet1").toggle()
-	$(".tweet2").toggleClass('positionZero');
-	$(".response").toggle();
-	if ($(".response").is(":visible")) {
-		setTimeout(function() {
-			$(".part").toggle();
-			$(".resultLoaded").toggle();
-			$(".tweet2").on('click', demotweet2);
-		}, 3000);
-	} else {
-		$(".part").toggle();
-		$(".resultLoaded").toggle();
-		$(".tweet2").on('click', demotweet2);
-
-	}
+var assignOnFunctions = function() {
+	let prefix = ".tweet"
+	$(".tweet0").on('click', { prefix: ".tweet", care: "0", dontcare: ["1", "2"] }, demotweet)
+	$(".tweet1").on('click', { prefix: ".tweet", care: "1", dontcare: ["0", "2"] }, demotweet)
+	$(".tweet2").on('click', { prefix: ".tweet", care: "2", dontcare: ["0", "1"] }, demotweet)
 }
-var quitAllDemo = function(e) {
-	console.log("Triggered")
-	$(".resultLoaded").hide()
-	$(".tweet0").off()
-	$(".tweet1").off()
-	$(".tweet2").off()
-	$(".tweet0").show()
-	$(".tweet1").show()
-	$(".tweet1").show()
-	$(".tweet0").removeClass('positionZero')
-	$(".tweet1").removeClass('positionZero')
-	$(".tweet2").removeClass('positionZero')
-	$(".response").hide()
-	$(".part").toggle();
+var demotweet = function(e) {
+	let care = e.data.prefix.concat(e.data.care)
+	$(care).off();
+	$(care).toggleClass('positionZero');
+	for (let dc of e.data.dontcare) {
+		dc = e.data.prefix.concat(dc)
+		$(dc).fadeOut(500)
+	}
 	$(".resultLoaded").hide();
-	// $(".tweet0").on('click', demotweet0)
-	// $(".tweet1").on('click', demotweet1)
-	$(".tweet2").on('click', demotweet2)
+	$(".response").fadeIn(500)
+	setTimeout(function() {
+		$(".part").hide();
+		$(".resultLoaded").show();
+		$(care).on('click', quitAllDemo);
+	}, 3000);
+}
+var quitAllDemo = function() {
+	let twClasses = [".tweet0", ".tweet1", ".tweet2"]
+	for (twClass of twClasses) {
+		$(twClass).off()
+		$(twClass).fadeIn(500)
+		$(twClass).removeClass('positionZero')
+	}
+	$(".part").toggle();
+	$(".response").hide()
+	$(".resultLoaded").fadeOut(1000)
+	assignOnFunctions()
 }
 
 $(document).ready(function() {
-	$(".tweet2").on("click", demotweet2);
+	assignOnFunctions()
 	$("#quitDemo").on("click", quitAllDemo);
 });

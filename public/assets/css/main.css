@@ -3525,21 +3525,18 @@ body.is-loading #sidebar nav ul li {
   }
 }
 
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 968px) {
   .demo .first, .demo .response {
     width: 100%;
   }
-  .demoFakeTweets img {
-    width: 90%;
-    max-width: 500px;
-  }
   .demo .response {
     margin-top: -50px;
+    margin-bottom: -50px;
   }
-}
-
-@media screen and (max-width: 1024px) {
-  .demo .first, .demo .response {}
+  .demoFakeTweets img {
+    max-width: 450px;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 475px) {
@@ -3598,6 +3595,7 @@ body.is-loading #sidebar nav ul li {
   display: none;
   /* background-color: #555; */
   transition: all 2s linear;
+  padding: 3px;
 }
 
 .show {
@@ -3625,6 +3623,21 @@ body.is-loading #sidebar nav ul li {
   height: 250px;
   margin: auto;
   left: 56%;
+}
+
+@media screen and (max-width: 968px) {
+  .resultLoader {
+    left: 25%;
+  }
+  .part {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .resultLoader {
+    left: 0%;
+  }
 }
 
 .part {
@@ -3660,10 +3673,19 @@ body.is-loading #sidebar nav ul li {
   display: none;
 }
 
+.resultLoaded h2 {
+  margin-bottom: 0;
+  font-size: 1.45em;
+}
+
+.resultLoaded p {
+  font-size: 17px;
+}
+
 .circle {
   border-radius: 50%;
-  width: 90px;
-  height: 90px;
+  width: 70px;
+  height: 70px;
   margin: auto;
 }
 
@@ -3677,13 +3699,9 @@ body.is-loading #sidebar nav ul li {
 
 .circle i {
   position: relative;
-  top: 30px;
+  top: 20px;
   font-size: 25px;
   color: #fff;
-}
-
-.resultLoaded h2 {
-  margin-bottom: 0;
 }
 
 /* HOW IT WORKS */
