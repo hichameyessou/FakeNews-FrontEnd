@@ -317,8 +317,7 @@ var data = [
 ];
 
 // Splice in transparent for the center circle - questa riga infastidisce
-//Highcharts.getOptions().colors.splice(0, 0, 'transparent');
-
+Highcharts.getOptions().colors=['#22cde8', '#d0bb51','#2ca3bc'];
 
 Highcharts.chart('container3', {
 
@@ -342,6 +341,7 @@ Highcharts.chart('container3', {
         data: data,
         allowDrillToNode: true,
         cursor: 'pointer',
+        colors: ['#22cde8', '#d0bb51','#2ca3bc'],
         dataLabels: {
             format: '{point.name}',
             filter: {
@@ -372,7 +372,7 @@ Highcharts.chart('container3', {
                 level: 3,
                 colorVariation: {
                     key: 'brightness',
-                    to: -0.5
+                    to: -0.25
                 }
             }, {
                 level: 4,
