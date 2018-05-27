@@ -3496,7 +3496,7 @@ body.is-loading #sidebar nav ul li {
 .demo .first, .demo .response {
   float: left;
   width: 50%;
-  min-height: 260px;
+  min-height: 280px;
   text-align: center;
 }
 
@@ -3513,7 +3513,7 @@ body.is-loading #sidebar nav ul li {
     max-width: 440px;
   }
   .demo .first, .demo .response {
-    min-height: 240px;
+    min-height: 260px;
   }
 }
 
@@ -3531,9 +3531,7 @@ body.is-loading #sidebar nav ul li {
 }
 
 @media screen and (max-width: 1024px) {
-  .demo .first, .demo .response {
-    min-height: 240px;
-  }
+  .demo .first, .demo .response {}
 }
 
 @media screen and (max-width: 475px) {
