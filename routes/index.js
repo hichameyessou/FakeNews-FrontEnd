@@ -16,7 +16,16 @@ router.get('/', function(req, res, next) {
 		title: 'Dr.Watson',
 		tag_title_description: 'The Fake News Inspector',
 		description: 'An AI-based platform to check fake news on twitter via Watson IBM',
-		demoTweets: pick(demoTweets, 3)
+		demoTweets: pick(demoTweets, 3),
+		sentimentParser: {
+			anger: "Anger 😡",
+			fear: "Fear 😱",
+			joy: "Joy 😁",
+			sadness: "Sadness 😞",
+			analytical: "Analytical 🤔",
+			confident: "Confident 😎",
+			tentative: "Tentative 😉"
+		}
 	});
 });
 

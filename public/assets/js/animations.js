@@ -16,7 +16,7 @@ var demotweet = function(e) {
 	$(".response").fadeIn(500)
 	setTimeout(function() {
 		$(".part").hide();
-		$(".resultLoaded").show();
+		$("#resultLoadedTweet" + e.data.care).show();
 		$(care).on('click', quitAllDemo);
 	}, 3000);
 }

@@ -1,77 +1,92 @@
 [
   {
     "tweet_id": "604303146203103233",
+    "confidence": 66,
     "predicted_isFake": true,
-    "sentiment": "Joy"
+    "sentiment": "joy"
   },
   {
     "tweet_id": "605394876058992641",
+    "confidence": 66,
     "predicted_isFake": true,
-    "sentiment": "Joy"
+    "sentiment": "joy"
   },
   {
     "tweet_id": "613707919402606592",
+    "confidence": 66,
     "predicted_isFake": true,
-    "sentiment": "Joy"
+    "sentiment": "joy"
   },
   {
     "tweet_id": "625323253930668033",
+    "confidence": 66,
     "predicted_isFake": true,
-    "sentiment": "Joy"
+    "sentiment": "joy"
   },
   {
     "tweet_id": "639150523304689664",
-    "predicted_isFake": true,
-    "sentiment": "Joy"
+    "confidence": 77,
+    "predicted_isFake": false,
+    "sentiment": "confident"
   },
   {
     "tweet_id": "655136737853853700",
-    "predicted_isFake": true,
-    "sentiment": "Joy"
+    "confidence": 77,
+    "predicted_isFake": false,
+    "sentiment": "confident"
   },
   {
     "tweet_id": "660652127258173440",
-    "predicted_isFake": true,
-    "sentiment": "Joy"
+    "confidence": 88,
+    "predicted_isFake": false,
+    "sentiment": "sadness"
   },
   {
     "tweet_id": "674359085098123265",
-    "predicted_isFake": true,
-    "sentiment": "Joy"
+    "confidence": 88,
+    "predicted_isFake": false,
+    "sentiment": "sadness"
   },
   {
     "tweet_id": "677222986429018112",
-    "predicted_isFake": true,
-    "sentiment": "Joy"
+    "confidence": 88,
+    "predicted_isFake": false,
+    "sentiment": "sadness"
   },
   {
     "tweet_id": "677836006897266688",
-    "predicted_isFake": true,
-    "sentiment": "Joy"
+    "confidence": 88,
+    "predicted_isFake": false,
+    "sentiment": "sadness"
   },
   {
     "tweet_id": "777906418527637504",
+    "confidence": 88,
     "predicted_isFake": true,
-    "sentiment": "Joy"
+    "sentiment": "sadness"
   },
   {
     "tweet_id": "778528661901234176",
-    "predicted_isFake": true,
-    "sentiment": "Joy"
+    "confidence": 55,
+    "predicted_isFake": false,
+    "sentiment": "fear"
   },
   {
     "tweet_id": "779051536043442176",
-    "predicted_isFake": true,
-    "sentiment": "Joy"
+    "confidence": 55,
+    "predicted_isFake": false,
+    "sentiment": "fear"
   },
   {
     "tweet_id": "786369653421576192",
-    "predicted_isFake": true,
-    "sentiment": "Joy"
+    "confidence": 55,
+    "predicted_isFake": false,
+    "sentiment": "fear"
   },
   {
     "tweet_id": "815991020806635520",
-    "predicted_isFake": true,
-    "sentiment": "Joy"
+    "confidence": 55,
+    "predicted_isFake": false,
+    "sentiment": "fear"
   }
 ]
