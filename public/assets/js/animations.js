@@ -1,11 +1,19 @@
 $(document).ready(function() {
 	$(".tweet2").click(function() {
-		$(".tweet0").hide()
-		$(".tweet1").hide()
-		$(".tweet2").animate({ top: '0px', left: '0px' });
-		$(".response").toggleClass('show');
+		$(".resultLoaded").hide();
+
+		$(".tweet0").toggle()
+		$(".tweet1").toggle()
+		$(".tweet2").toggleClass('positionZero');
+		$(".response").toggle();
+
 		setTimeout(function() {
-			$(".part").toggleClass('hide');
+			$(".part").toggle();
+			$(".resultLoaded").toggle();
+
 		}, 2000);
+
+
+
 	});
 });

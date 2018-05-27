@@ -3546,6 +3546,7 @@ body.is-loading #sidebar nav ul li {
 .demoTweet {
   position: absolute;
   cursor: pointer;
+  transition: top 1s, left 1s ease;
 }
 
 .demoFakeTweets .tweet0 {
@@ -3571,6 +3572,12 @@ body.is-loading #sidebar nav ul li {
 .demoFakeTweets .tweet2 {
   top: 60px;
   left: 60px;
+}
+
+.positionZero {
+  top: 0px !important;
+  left: 0px !important;
+  transition: top 1s, left 1s ease;
 }
 
 @media screen and (max-width: 480px) {
@@ -3609,6 +3616,7 @@ body.is-loading #sidebar nav ul li {
   width: 250px;
   height: 250px;
   margin: auto;
+  left: 56%;
 }
 
 .part {
@@ -3638,6 +3646,36 @@ body.is-loading #sidebar nav ul li {
   to {
     stroke-dashoffset: 2000;
   }
+}
+
+.resultLoaded {
+  display: none;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  margin: auto;
+}
+
+.green {
+  background: #4ebb25;
+}
+
+.red {
+  background: #d42525;
+}
+
+.circle i {
+  position: relative;
+  top: 30px;
+  font-size: 25px;
+  color: #fff;
+}
+
+.resultLoaded h2 {
+  margin-bottom: 0;
 }
 
 /* ABOUT US */
