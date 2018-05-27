@@ -18,6 +18,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
 	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/js/animations.js"></script>
 
 </head>
 
@@ -80,19 +82,29 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 						<p>You are a fake news</p> -->
 						<h2>Check out this demo</h2>
 						<p>Click on a news to let Mr.Watson decide whether is hoax</p>
-						<div class="split style1">
-							<div class="field half first">
+						<div class="demo">
+							<div class="first">
 								<div class="demoFakeTweets">
 									{{#each demoTweets}}
 									<div class="demoTweet tweet{{@index}}"><img src="images/DemoTweets-Web/{{tweet_id}}.png" /></div>
 									{{/each}}
 								</div>
 
-								<ul class="actions">
-									<li><a onclick="javascript:location.reload();" class="button" id="loadMoreDemoTweets">Load more</a></li>
-								</ul>
 							</div>
+							<div class="response">
+								<div class="real">
+									Hellos
+								</div>
+								<div class="predicted">
+
+								</div>
+							</div>
+							<div style="clear: both;"></div>
+
 						</div>
+						<ul class="actions">
+							<li><a onclick="javascript:location.reload();" class="button" id="loadMoreDemoTweets">Load more</a></li>
+						</ul>
 					</div>
 		</section>
 		<staticContent>
