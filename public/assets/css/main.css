@@ -3717,6 +3717,14 @@ body.is-loading #sidebar nav ul li {
   margin-bottom: 30px;
 }
 
+.graph-row {
+  min-width: 232px;
+  width: 50.0%;
+  float: left;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 825px) {
   .card-first-row {
     min-width: 100px;
