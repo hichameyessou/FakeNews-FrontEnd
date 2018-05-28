@@ -3,7 +3,7 @@ Highcharts.chart('container2', {
 
     chart: {
         type: 'heatmap',
-        marginTop: 40,
+        marginTop: 60,
         marginBottom: 80,
         plotBorderWidth: 1
     },
@@ -13,7 +13,12 @@ Highcharts.chart('container2', {
     },
 
     title: {
-        text: 'News spread during days over the week'
+        text: 'Tweets spread over the week'
+    },
+
+
+    subtitle: {
+        text: ''
     },
 
     xAxis: {
@@ -36,8 +41,8 @@ Highcharts.chart('container2', {
         layout: 'vertical',
         margin: 0,
         verticalAlign: 'top',
-        y: 25,
-        symbolHeight: 280
+        y: 43,
+        symbolHeight: 260
     },
 
     tooltip: {

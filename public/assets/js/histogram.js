@@ -15,6 +15,10 @@ Highcharts.chart('container4', {
         text: 'Dataset insights'
     },
 
+    subtitle: {
+        //text: 'text'
+    },
+
     xAxis: {
         categories: ['Tweets Nature', 'News Nature', 'Users Nature'],
         labels: {

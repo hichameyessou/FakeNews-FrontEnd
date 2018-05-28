@@ -3755,7 +3755,7 @@ body.is-loading #sidebar nav ul li {
   }
 
   .graphs {
-    min-height: 950px;
+    min-height: 900px;
     margin: auto;
     padding-left: 0em;
   }
