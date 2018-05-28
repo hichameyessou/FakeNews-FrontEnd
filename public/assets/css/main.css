@@ -3728,11 +3728,46 @@ body.is-loading #sidebar nav ul li {
   margin: auto;
 }
 
+.graphs {
+  min-height: 500px;
+  margin: auto;
+  padding-left: 2em;
+}
+
+.graph-row-1 {
+  min-width: 232px;
+  width: 50.0%;
+  float: left;
+  text-align: center;
+}
+
+.graph-row-2 {
+  min-width: 232px;
+  width: 50.0%;
+  float: left;
+  text-align: center;
+}
+
 @media screen and (max-width: 825px) {
   .team {
     min-height: 1100px;
     margin: auto;
   }
+
+  .graphs {
+    min-height: 950px;
+    margin: auto;
+    padding-left: 0em;
+  }
+
+  .graph-row-1 {
+    width: 100.0%
+  }
+
+  .graph-row-2 {
+    width: 100.0%
+  }
+
 }
 
 /* @media screen and (max-width: 825px) {
@@ -3755,14 +3790,6 @@ body.is-loading #sidebar nav ul li {
 .card-first-row {
   min-width: 232px;
   width: 33.3%;
-  float: left;
-  text-align: center;
-  margin-bottom: 30px;
-}
-
-.graph-row {
-  min-width: 232px;
-  width: 50.0%;
   float: left;
   text-align: center;
   margin-bottom: 30px;
