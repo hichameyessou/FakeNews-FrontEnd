@@ -52,14 +52,14 @@ Highcharts.chart('container4', {
     },
 
     series: [{
-        name: 'Fake Tweets',
+        name: 'Real Tweets',
 
         data: [{y: 72, color: 'rgb(34, 205, 232)'},
                 {y: 49, color: 'rgb(34, 205, 232)'},
                 {y: 33, color: 'rgb(34, 205, 232)'}],
         stack: 'male'
     },  {
-        name: 'Real Tweets',
+        name: 'Fake Tweets',
         data: [{y: 28, color: 'rgb(208, 187, 81)'},
             {y: 51, color: 'rgb(208, 187, 81)'},
             {y: 67, color: 'rgb(208, 187, 81)'}],
