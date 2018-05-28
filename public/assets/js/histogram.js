@@ -20,7 +20,7 @@ Highcharts.chart('container4', {
     },
 
     xAxis: {
-        categories: ['Tweets Nature', 'News Nature', 'Users Nature'],
+        categories: ['Tweets', 'News', 'Users'],
         labels: {
             skew3d: true,
             style: {
@@ -33,7 +33,7 @@ Highcharts.chart('container4', {
         allowDecimals: false,
         min: 0,
         title: {
-            text: 'Number of Tweets',
+            text: 'Quantity',
             skew3d: true
         }
     },
@@ -56,17 +56,17 @@ Highcharts.chart('container4', {
     },
 
     series: [{
-        name: 'Real Tweets',
+        name: 'Real',
 
         data: [{y: 72, color: 'rgb(34, 205, 232)'},
                 {y: 49, color: 'rgb(34, 205, 232)'},
                 {y: 33, color: 'rgb(34, 205, 232)'}],
-        stack: 'male'
+        stack: 'real'
     },  {
-        name: 'Fake Tweets',
+        name: 'Fake',
         data: [{y: 28, color: 'rgb(208, 187, 81)'},
             {y: 51, color: 'rgb(208, 187, 81)'},
             {y: 67, color: 'rgb(208, 187, 81)'}],
-        stack: 'female'
+        stack: 'fake'
     }]
 });
