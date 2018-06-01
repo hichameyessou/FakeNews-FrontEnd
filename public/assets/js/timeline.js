@@ -9,7 +9,23 @@ $.getJSON(
         
         Highcharts.chart('container', {
             chart: {
-                zoomType: 'x'
+                zoomType: 'x',
+                backgroundColor: 'rgba(255, 255, 255, 0)'
+            },
+            navigation: {
+                buttonOptions: {
+                    theme: {
+                        fill: 'transparent',
+                        states: {
+                            hover: {
+                                fill: '#FFFFFF'
+                            },
+                            select: {
+                                fill: '#FFFFFF'
+                            }
+                        }
+                    }
+                }
             },
             title: {
                 text: 'Distribution of the Tweets over time'

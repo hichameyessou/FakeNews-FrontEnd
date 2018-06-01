@@ -2477,12 +2477,29 @@ var data = [
 ];
 
 // Splice in transparent for the center circle - questa riga infastidisce
-Highcharts.getOptions().colors=['#22cde8', '#d0bb51','#2ca3bc'];
+Highcharts.getOptions().colors=['rgb(56,174,192)', 'rgb(21,64,71)', 'rgb(34, 205, 232)'];
 
 Highcharts.chart('container3', {
 
     chart: {
-        height: '100%'
+        height: '100%',
+        backgroundColor: 'rgba(255, 255, 255, 0)'
+    },
+
+    navigation: {
+        buttonOptions: {
+            theme: {
+                fill: 'transparent',
+                states: {
+                    hover: {
+                        fill: '#FFFFFF'
+                    },
+                    select: {
+                        fill: '#FFFFFF'
+                    }
+                }
+            }
+        }
     },
 
     title: {

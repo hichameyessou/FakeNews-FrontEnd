@@ -5,7 +5,24 @@ Highcharts.chart('container2', {
         type: 'heatmap',
         marginTop: 60,
         marginBottom: 80,
-        plotBorderWidth: 1
+        plotBorderWidth: 1,
+        backgroundColor: 'rgba(255, 255, 255, 0)'
+    },
+
+    navigation: {
+        buttonOptions: {
+            theme: {
+                fill: 'transparent',
+                states: {
+                    hover: {
+                        fill: '#FFFFFF'
+                    },
+                    select: {
+                        fill: '#FFFFFF'
+                    }
+                }
+            }
+        }
     },
 
     credits: {

@@ -8,11 +8,28 @@ Highcharts.chart('container4', {
             beta: 15,
             viewDistance: 25,
             depth: 40
-        }
+        },
+        backgroundColor: 'rgba(255, 255, 255, 0)'
     },
 
     title: {
         text: 'Dataset insights'
+    },
+
+    navigation: {
+        buttonOptions: {
+            theme: {
+                fill: 'transparent',
+                states: {
+                    hover: {
+                        fill: '#FFFFFF'
+                    },
+                    select: {
+                        fill: '#FFFFFF'
+                    }
+                }
+            }
+        }
     },
 
     subtitle: {
@@ -64,9 +81,9 @@ Highcharts.chart('container4', {
         stack: 'real'
     },  {
         name: 'Fake',
-        data: [{y: 28, color: 'rgb(208, 187, 81)'},
-            {y: 51, color: 'rgb(208, 187, 81)'},
-            {y: 67, color: 'rgb(208, 187, 81)'}],
+        data: [{y: 28, color: 'rgb(21,64,71)'},
+            {y: 51, color: 'rgb(21,64,71)'},
+            {y: 67, color: 'rgb(21,64,71)'}],
         stack: 'fake'
     }]
 });
