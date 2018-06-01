@@ -6,7 +6,7 @@ var pick = require('random-pick')
 var router = express.Router();
 var demoTweets = jsonfile.readFileSync('demoTweets.json', 'utf8')
 
-var embedder = require('../embedder');
+var embedder = require('../utils/embedder');
 //Example
 //getHTML(idTweet, callback)
 

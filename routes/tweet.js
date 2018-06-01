@@ -1,8 +1,8 @@
 var url = require("url");
 var isUrl = require("is-url");
 var express = require('express');
-var twitter = require('../twitter');
-var embedder = require('../embedder');
+var twitter = require('../utils/twitter');
+var embedder = require('../utils/embedder');
 var router = express.Router();
 
 /* GET tweet page. */
