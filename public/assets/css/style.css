@@ -1,24 +1,12 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,700);
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic);
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: #323c41;
-}
-
 .blog-card {
   width: auto;
   height: auto;
-  position: relative;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
+
 .blog-card.spring-fever {
   background-color: rgba(237, 241, 254, 1);
 }
@@ -27,30 +15,7 @@ body {
   opacity: 1;
   bottom: 120px;
 }
+
 .blog-card:hover .color-overlay {
   background: rgba(84, 104, 110, 0.8);
-}
-
-h3 {
-  font-size: 20px;
-  font-weight: 500;
-  letter-spacing: 2px;
-  color: #9CC9E3;
-  font-family: 'Roboto', sans-serif;
-  margin-bottom: 0;
-}
-
-hr {
-  width: 50px;
-  height: 3px;
-  margin: 20px auto;
-  border: 0;
-  background: #D0BB57;
-}
-
-.utility-list li.comments {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-chat.svg) no-repeat 0 0.1em;
-}
-.utility-list li.date {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-calendar.svg) no-repeat 0 0.1em;
 }
