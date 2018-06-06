@@ -6,7 +6,6 @@
 <a href="https://www.eitdigital.eu/"><img src="https://github.com/hichameyessou/FakeNews-FrontEnd/blob/master/public/images/logo_eit_black.png?raw=true" height="40px"></a>
 </p>
 
-
 # Dr.Watson Front-End
 Polytechnic University of Milan - Digital Business Innovation Lab - A.Y. 2017/18
 
