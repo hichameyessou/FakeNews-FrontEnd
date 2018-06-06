@@ -11,7 +11,3 @@ Polytechnic University of Milan - Digital Business Innovation Lab - A.Y. 2017/18
 
 ## Useful links
 - [Website](http://fakenews.eu-de.mybluemix.net/)
-- [Business Document](https://github.com/massimoPerini/FakeNews/blob/master/Delivery/Dr.Watson-GestIT.pdf)
-
-## Installation
-`git clone --recurse-submodules https://github.com/massimoPerini/FakeNews`
