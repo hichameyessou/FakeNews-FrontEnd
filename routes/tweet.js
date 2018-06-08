@@ -17,17 +17,13 @@ router.post('/tweet', function(req, res){
 					console.log("Got inside embedder");
 					console.log(htmlResponse);
 					return res.send(htmlResponse);	
-					
 				});
-				
 			} 
 			if(error != null){
 				console.log("Error getting data: "+error);
 				return res.send("Not a tweet: "+error);
 			}
-			
 		});
-		
 	}else{
 		console.log("Not a url");
 		res.send("Not a url");
