@@ -142,7 +142,7 @@
     },
     "E65F52E2BBEEA0997BA4AA204B649B38" : {
       "type" : "texture",
-      "index" : 21,
+      "index" : 10,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -238,20 +238,6 @@
       "width" : 212,
       "height" : 212
     },
-    "D18B2B6B6682B7FCE86648BDCB437E2C" : {
-      "type" : "texture",
-      "index" : 10,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/32D3DBBD-C509-4773-A2BC-34B381DCA61E.pdf"
-      },
-      "width" : 296,
-      "height" : 34
-    },
     "D3E4C5B730ECD456C5EB89EFB43A8D18" : {
       "type" : "texture",
       "index" : 16,
@@ -310,7 +296,7 @@
     },
     "00CBB41200A953EF4158FD95EE0D9EC0" : {
       "type" : "texture",
-      "index" : 22,
+      "index" : 21,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -8079,7 +8065,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "D18B2B6B6682B7FCE86648BDCB437E2C"
+                    "texture" : "E65F52E2BBEEA0997BA4AA204B649B38"
                   }
                 ]
               }
@@ -14973,12 +14959,21 @@
       ],
       "accessibility" : [
         {
-          "text" : "24291333.jpeg",
+          "text" : "pasted-image.tiff",
           "targetRectangle" : {
-            "y" : 242.94301986694336,
-            "x" : 855.63897316545433,
-            "width" : 208.73555775391708,
-            "height" : 208.74278659110968
+            "y" : 631.5434832572937,
+            "x" : 604.01970617860741,
+            "width" : 208.73555775391719,
+            "height" : 208.74278659110973
+          }
+        },
+        {
+          "text" : "AI development",
+          "targetRectangle" : {
+            "y" : 895.77862524986267,
+            "x" : 101.69512939453125,
+            "width" : 195.399,
+            "height" : 37
           }
         },
         {
@@ -14988,6 +14983,96 @@
             "x" : 347.14607613176287,
             "width" : 208.73555775391713,
             "height" : 208.74278659110968
+          }
+        },
+        {
+          "text" : "29313712_808046716059596_8002706468354654208_o.jpg",
+          "targetRectangle" : {
+            "y" : 245.68875122070312,
+            "x" : 1364.131832052173,
+            "width" : 208.73555775391719,
+            "height" : 208.74278659110968
+          }
+        },
+        {
+          "text" : "21950165_10211898665120757_6344916784831772655_o.jpg",
+          "targetRectangle" : {
+            "y" : 634.28921508789062,
+            "x" : 1112.5125998744386,
+            "width" : 208.73555775391719,
+            "height" : 208.74278659110973
+          }
+        },
+        {
+          "text" : "AI development",
+          "targetRectangle" : {
+            "y" : 895.77862524986267,
+            "x" : 1627.1669921875,
+            "width" : 195.39899999999989,
+            "height" : 37
+          }
+        },
+        {
+          "text" : "24291333.jpeg",
+          "targetRectangle" : {
+            "y" : 242.94301986694336,
+            "x" : 855.63897316545433,
+            "width" : 208.73555775391708,
+            "height" : 208.74278659110968
+          }
+        },
+        {
+          "text" : "AI development",
+          "targetRectangle" : {
+            "y" : 897.78430151939392,
+            "x" : 1118.674072265625,
+            "width" : 195.39899999999989,
+            "height" : 37
+          }
+        },
+        {
+          "text" : "pasted-image.tiff",
+          "targetRectangle" : {
+            "y" : 636.28548431396484,
+            "x" : 1620.7782553920167,
+            "width" : 208.73555775391719,
+            "height" : 208.74278659110973
+          }
+        },
+        {
+          "text" : "Front-end & Data visualization",
+          "targetRectangle" : {
+            "y" : 514.36511206626892,
+            "x" : 1284.8819580078125,
+            "width" : 363.58199999999988,
+            "height" : 37
+          }
+        },
+        {
+          "text" : "Front-end & Data visualization",
+          "targetRectangle" : {
+            "y" : 514.36511206626892,
+            "x" : 269.21612548828125,
+            "width" : 363.58199999999999,
+            "height" : 37
+          }
+        },
+        {
+          "text" : "Harilal Orunkara Poyil ",
+          "targetRectangle" : {
+            "y" : 856.08154314756393,
+            "x" : 557.11578369140625,
+            "width" : 301.52999999999997,
+            "height" : 41
+          }
+        },
+        {
+          "text" : "Massimo Perini",
+          "targetRectangle" : {
+            "y" : 856.08154314756393,
+            "x" : 97.049629211425781,
+            "width" : 204.69000000000005,
+            "height" : 41
           }
         },
         {
@@ -15003,80 +15088,8 @@
           "text" : "AI development",
           "targetRectangle" : {
             "y" : 895.77862524986267,
-            "x" : 1627.1669921875,
-            "width" : 195.39899999999989,
-            "height" : 37
-          }
-        },
-        {
-          "text" : "21950165_10211898665120757_6344916784831772655_o.jpg",
-          "targetRectangle" : {
-            "y" : 634.28921508789062,
-            "x" : 1112.5125998744386,
-            "width" : 208.73555775391719,
-            "height" : 208.74278659110973
-          }
-        },
-        {
-          "text" : "pasted-image.tiff",
-          "targetRectangle" : {
-            "y" : 636.28548431396484,
-            "x" : 1620.7782553920167,
-            "width" : 208.73555775391719,
-            "height" : 208.74278659110973
-          }
-        },
-        {
-          "text" : "AI development",
-          "targetRectangle" : {
-            "y" : 897.78430151939392,
-            "x" : 1118.674072265625,
-            "width" : 195.39899999999989,
-            "height" : 37
-          }
-        },
-        {
-          "text" : "GestIT",
-          "targetRectangle" : {
-            "y" : 60.951612710952759,
-            "x" : 845.739990234375,
-            "width" : 227.51999999999998,
-            "height" : 109
-          }
-        },
-        {
-          "text" : "Gioele Bigini",
-          "targetRectangle" : {
-            "y" : 474.21832293272018,
-            "x" : 362.73211669921875,
-            "width" : 176.54999999999995,
-            "height" : 41
-          }
-        },
-        {
-          "text" : "UX & Front-end development",
-          "targetRectangle" : {
-            "y" : 514.36511206626892,
-            "x" : 781.1514892578125,
-            "width" : 356.69700000000012,
-            "height" : 37
-          }
-        },
-        {
-          "text" : "Massimo Perini",
-          "targetRectangle" : {
-            "y" : 856.08154314756393,
-            "x" : 97.049629211425781,
-            "width" : 204.69000000000005,
-            "height" : 41
-          }
-        },
-        {
-          "text" : "Front-end & Data visualization",
-          "targetRectangle" : {
-            "y" : 514.36511206626892,
-            "x" : 269.21612548828125,
-            "width" : 363.58199999999999,
+            "x" : 610.1812744140625,
+            "width" : 195.399,
             "height" : 37
           }
         },
@@ -15090,66 +15103,12 @@
           }
         },
         {
-          "text" : "Hichame Yessou",
-          "targetRectangle" : {
-            "y" : 474.21832293272018,
-            "x" : 1355.222900390625,
-            "width" : 222.90000000000009,
-            "height" : 41
-          }
-        },
-        {
-          "text" : "AI development",
-          "targetRectangle" : {
-            "y" : 895.77862524986267,
-            "x" : 101.69512939453125,
-            "width" : 195.399,
-            "height" : 37
-          }
-        },
-        {
-          "text" : "Filippo Calzavara",
-          "targetRectangle" : {
-            "y" : 474.21832293272018,
-            "x" : 844.97503662109375,
-            "width" : 233.84999999999991,
-            "height" : 41
-          }
-        },
-        {
-          "text" : "Front-end & Data visualization",
+          "text" : "UX & Front-end development",
           "targetRectangle" : {
             "y" : 514.36511206626892,
-            "x" : 1284.8819580078125,
-            "width" : 363.58199999999988,
+            "x" : 781.1514892578125,
+            "width" : 356.69700000000012,
             "height" : 37
-          }
-        },
-        {
-          "text" : "AI development",
-          "targetRectangle" : {
-            "y" : 895.77862524986267,
-            "x" : 610.1812744140625,
-            "width" : 195.399,
-            "height" : 37
-          }
-        },
-        {
-          "text" : "Harilal Orunkara Poyil ",
-          "targetRectangle" : {
-            "y" : 856.08154314756393,
-            "x" : 557.11578369140625,
-            "width" : 301.52999999999997,
-            "height" : 41
-          }
-        },
-        {
-          "text" : "pasted-image.tiff",
-          "targetRectangle" : {
-            "y" : 631.5434832572937,
-            "x" : 604.01970617860741,
-            "width" : 208.73555775391719,
-            "height" : 208.74278659110973
           }
         },
         {
@@ -15162,12 +15121,39 @@
           }
         },
         {
-          "text" : "29313712_808046716059596_8002706468354654208_o.jpg",
+          "text" : "GestIT",
           "targetRectangle" : {
-            "y" : 245.68875122070312,
-            "x" : 1364.131832052173,
-            "width" : 208.73555775391719,
-            "height" : 208.74278659110968
+            "y" : 60.951612710952759,
+            "x" : 845.739990234375,
+            "width" : 227.51999999999998,
+            "height" : 109
+          }
+        },
+        {
+          "text" : "Filippo Calzavara",
+          "targetRectangle" : {
+            "y" : 474.21832293272018,
+            "x" : 844.97503662109375,
+            "width" : 233.84999999999991,
+            "height" : 41
+          }
+        },
+        {
+          "text" : "Hichame Yessou",
+          "targetRectangle" : {
+            "y" : 474.21832293272018,
+            "x" : 1355.222900390625,
+            "width" : 222.90000000000009,
+            "height" : 41
+          }
+        },
+        {
+          "text" : "Gioele Bigini",
+          "targetRectangle" : {
+            "y" : 474.21832293272018,
+            "x" : 362.73211669921875,
+            "width" : 176.54999999999995,
+            "height" : 41
           }
         }
       ],

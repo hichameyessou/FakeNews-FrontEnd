@@ -1,5 +1,33 @@
 {
   "assets" : {
+    "8B107A205B7A25FEE8B062AD08AE1DD7" : {
+      "type" : "texture",
+      "index" : 16,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/999F8077-E63F-4CDC-941C-6F30E00F7088.pdf"
+      },
+      "width" : 105,
+      "height" : 101
+    },
+    "0453331C27387A511143A95878F46D1F" : {
+      "type" : "texture",
+      "index" : 13,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/999F8077-E63F-4CDC-941C-6F30E00F7088.pdf"
+      },
+      "width" : 105,
+      "height" : 101
+    },
     "90A9157525E235B6B2F2682FA413D318" : {
       "type" : "texture",
       "index" : 9,
@@ -16,7 +44,7 @@
     },
     "07177175984A1195BAAD21053251B189" : {
       "type" : "texture",
-      "index" : 21,
+      "index" : 18,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -28,9 +56,23 @@
       "width" : 105,
       "height" : 101
     },
+    "4EC788E7C98597EE51A0332CF0871B2C" : {
+      "type" : "texture",
+      "index" : 4,
+      "assetRequest" : {
+        "type" : "slide",
+        "state" : "contents",
+        "slide" : "none"
+      },
+      "url" : {
+        "native" : "assets\/999F8077-E63F-4CDC-941C-6F30E00F7088.pdf"
+      },
+      "width" : 402,
+      "height" : 81
+    },
     "425834FB7E26C7C198B91D247E8E35CC" : {
       "type" : "texture",
-      "index" : 5,
+      "index" : 22,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -100,7 +142,7 @@
     },
     "B19AD33BB309B146695E49B1DE2C34DD" : {
       "type" : "texture",
-      "index" : 19,
+      "index" : 7,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -126,20 +168,6 @@
       "width" : 866,
       "height" : 65
     },
-    "E9FFED71B2654FD48A20262873D87815" : {
-      "type" : "texture",
-      "index" : 8,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/999F8077-E63F-4CDC-941C-6F30E00F7088.pdf"
-      },
-      "width" : 67,
-      "height" : 25
-    },
     "09C1411C4A99FEF78A127DC9B0D6CAFC" : {
       "type" : "texture",
       "index" : 3,
@@ -156,7 +184,7 @@
     },
     "821B56060F72055252BA3D8BA65EB597" : {
       "type" : "texture",
-      "index" : 22,
+      "index" : 19,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -170,7 +198,7 @@
     },
     "623F0BDE832D9D312969FB0C6D0364A9" : {
       "type" : "texture",
-      "index" : 18,
+      "index" : 6,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -184,7 +212,7 @@
     },
     "D980C247A2FE88B7753427F0321EEA66" : {
       "type" : "texture",
-      "index" : 20,
+      "index" : 8,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -212,7 +240,7 @@
     },
     "8A2BF0D9EF5451A726944ED4267158B0" : {
       "type" : "texture",
-      "index" : 4,
+      "index" : 21,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -223,34 +251,6 @@
       },
       "width" : 402,
       "height" : 81
-    },
-    "80F35D40EF96F5B21DFD3DBFA2576B2D" : {
-      "type" : "texture",
-      "index" : 16,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/999F8077-E63F-4CDC-941C-6F30E00F7088.pdf"
-      },
-      "width" : 105,
-      "height" : 101
-    },
-    "F3F27CFFF5944AD4AD4F8F17A47CC8DB" : {
-      "type" : "texture",
-      "index" : 6,
-      "assetRequest" : {
-        "type" : "slide",
-        "state" : "contents",
-        "slide" : "none"
-      },
-      "url" : {
-        "native" : "assets\/999F8077-E63F-4CDC-941C-6F30E00F7088.pdf"
-      },
-      "width" : 12,
-      "height" : 176
     },
     "CEF3028440585D7F8E222F1AACA3E665" : {
       "type" : "texture",
@@ -294,9 +294,9 @@
       "width" : 1920,
       "height" : 1080
     },
-    "F432C1282B0E0E21D8478FC7FEAD5269" : {
+    "E516348A9CC3AE3D8AD08D3265E8AE17" : {
       "type" : "texture",
-      "index" : 7,
+      "index" : 15,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -305,12 +305,12 @@
       "url" : {
         "native" : "assets\/999F8077-E63F-4CDC-941C-6F30E00F7088.pdf"
       },
-      "width" : 108,
-      "height" : 32
+      "width" : 105,
+      "height" : 101
     },
     "6B9D48241D6AA09142034211E59ED20E" : {
       "type" : "texture",
-      "index" : 13,
+      "index" : 20,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -336,9 +336,9 @@
       "width" : 105,
       "height" : 101
     },
-    "F52242552B8F77A8854B10E9C19424E9" : {
+    "44B2A3B21ABEB0BE3FC989B4986AD3FE" : {
       "type" : "texture",
-      "index" : 15,
+      "index" : 5,
       "assetRequest" : {
         "type" : "slide",
         "state" : "contents",
@@ -347,8 +347,8 @@
       "url" : {
         "native" : "assets\/999F8077-E63F-4CDC-941C-6F30E00F7088.pdf"
       },
-      "width" : 105,
-      "height" : 101
+      "width" : 402,
+      "height" : 81
     }
   },
   "events" : [
@@ -5045,7 +5045,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "8A2BF0D9EF5451A726944ED4267158B0"
+                    "texture" : "4EC788E7C98597EE51A0332CF0871B2C"
                   }
                 ]
               }
@@ -5480,7 +5480,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "425834FB7E26C7C198B91D247E8E35CC"
+                    "texture" : "44B2A3B21ABEB0BE3FC989B4986AD3FE"
                   }
                 ]
               }
@@ -5690,7 +5690,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "F3F27CFFF5944AD4AD4F8F17A47CC8DB"
+                    "texture" : "623F0BDE832D9D312969FB0C6D0364A9"
                   }
                 ]
               }
@@ -5878,7 +5878,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "F432C1282B0E0E21D8478FC7FEAD5269"
+                    "texture" : "B19AD33BB309B146695E49B1DE2C34DD"
                   }
                 ]
               }
@@ -6066,7 +6066,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "E9FFED71B2654FD48A20262873D87815"
+                    "texture" : "D980C247A2FE88B7753427F0321EEA66"
                   }
                 ]
               }
@@ -7500,7 +7500,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "6B9D48241D6AA09142034211E59ED20E"
+                    "texture" : "0453331C27387A511143A95878F46D1F"
                   }
                 ]
               }
@@ -7864,7 +7864,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "F52242552B8F77A8854B10E9C19424E9"
+                    "texture" : "E516348A9CC3AE3D8AD08D3265E8AE17"
                   }
                 ]
               }
@@ -8046,7 +8046,7 @@
                         "pointY" : 0.5
                       }
                     },
-                    "texture" : "80F35D40EF96F5B21DFD3DBFA2576B2D"
+                    "texture" : "8B107A205B7A25FEE8B062AD08AE1DD7"
                   }
                 ]
               }
@@ -9717,11 +9717,74 @@
       ],
       "accessibility" : [
         {
+          "text" : "Delivery",
+          "targetRectangle" : {
+            "y" : 217.68743920326233,
+            "x" : 1684.2131762504578,
+            "width" : 106.28800000000001,
+            "height" : 38
+          }
+        },
+        {
+          "text" : "pasted-image.tiff",
+          "targetRectangle" : {
+            "y" : 774.18903732299805,
+            "x" : 279.93910503387451,
+            "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
           "text" : "pasted-image.tiff",
           "targetRectangle" : {
             "y" : 671.33467102050781,
             "x" : 272.23567485809326,
             "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "24291333.jpeg",
+          "targetRectangle" : {
+            "y" : 385.72353553771973,
+            "x" : 249.36252689361569,
+            "width" : 70.002527236938732,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "Test and Documentation",
+          "targetRectangle" : {
+            "y" : 13.999998331069946,
+            "x" : 525.61822509765625,
+            "width" : 870.88000000000011,
+            "height" : 109
+          }
+        },
+        {
+          "text" : "21950165_10211898665120757_6344916784831772655_o.jpg",
+          "targetRectangle" : {
+            "y" : 671.33465003967285,
+            "x" : 113.45766925811765,
+            "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "pasted-image.tiff",
+          "targetRectangle" : {
+            "y" : 752.16078424453735,
+            "x" : 168.52524518966672,
+            "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "3b595f18-405d-416c-a66b-b9c85fbf3fd6.jpg",
+          "targetRectangle" : {
+            "y" : 495.40213367342949,
+            "x" : 202.8331055641174,
+            "width" : 70.002527236938732,
             "height" : 70.001265525818098
           }
         },
@@ -9744,75 +9807,12 @@
           }
         },
         {
-          "text" : "Test and Documentation",
-          "targetRectangle" : {
-            "y" : 13.999998331069946,
-            "x" : 525.61822509765625,
-            "width" : 870.88000000000011,
-            "height" : 109
-          }
-        },
-        {
-          "text" : "pasted-image.tiff",
-          "targetRectangle" : {
-            "y" : 752.16078424453735,
-            "x" : 168.52524518966672,
-            "width" : 70.002527236938704,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "24291333.jpeg",
-          "targetRectangle" : {
-            "y" : 385.72353553771973,
-            "x" : 249.36252689361569,
-            "width" : 70.002527236938732,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "Delivery",
-          "targetRectangle" : {
-            "y" : 217.68743920326233,
-            "x" : 1684.2131762504578,
-            "width" : 106.28800000000001,
-            "height" : 38
-          }
-        },
-        {
           "text" : "Work split",
           "targetRectangle" : {
             "y" : 598.63632202148438,
             "x" : 173.05636584472657,
             "width" : 129.55600000000001,
             "height" : 38
-          }
-        },
-        {
-          "text" : "21950165_10211898665120757_6344916784831772655_o.jpg",
-          "targetRectangle" : {
-            "y" : 671.33465003967285,
-            "x" : 113.45766925811765,
-            "width" : 70.002527236938704,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "pasted-image.tiff",
-          "targetRectangle" : {
-            "y" : 774.18903732299805,
-            "x" : 279.93910503387451,
-            "width" : 70.002527236938704,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "3b595f18-405d-416c-a66b-b9c85fbf3fd6.jpg",
-          "targetRectangle" : {
-            "y" : 495.40213367342949,
-            "x" : 202.8331055641174,
-            "width" : 70.002527236938732,
-            "height" : 70.001265525818098
           }
         }
       ],
@@ -19112,11 +19112,74 @@
       ],
       "accessibility" : [
         {
+          "text" : "Delivery",
+          "targetRectangle" : {
+            "y" : 217.68743920326233,
+            "x" : 1684.2131762504578,
+            "width" : 106.28800000000001,
+            "height" : 38
+          }
+        },
+        {
+          "text" : "pasted-image.tiff",
+          "targetRectangle" : {
+            "y" : 774.18903732299805,
+            "x" : 279.93910503387451,
+            "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
           "text" : "pasted-image.tiff",
           "targetRectangle" : {
             "y" : 671.33467102050781,
             "x" : 272.23567485809326,
             "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "24291333.jpeg",
+          "targetRectangle" : {
+            "y" : 385.72353553771973,
+            "x" : 249.36252689361569,
+            "width" : 70.002527236938732,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "Test and Documentation",
+          "targetRectangle" : {
+            "y" : 13.999998331069946,
+            "x" : 525.61822509765625,
+            "width" : 870.88000000000011,
+            "height" : 109
+          }
+        },
+        {
+          "text" : "21950165_10211898665120757_6344916784831772655_o.jpg",
+          "targetRectangle" : {
+            "y" : 671.33465003967285,
+            "x" : 113.45766925811765,
+            "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "pasted-image.tiff",
+          "targetRectangle" : {
+            "y" : 752.16078424453735,
+            "x" : 168.52524518966672,
+            "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "3b595f18-405d-416c-a66b-b9c85fbf3fd6.jpg",
+          "targetRectangle" : {
+            "y" : 495.40213367342949,
+            "x" : 202.8331055641174,
+            "width" : 70.002527236938732,
             "height" : 70.001265525818098
           }
         },
@@ -19148,42 +19211,6 @@
           }
         },
         {
-          "text" : "Test and Documentation",
-          "targetRectangle" : {
-            "y" : 13.999998331069946,
-            "x" : 525.61822509765625,
-            "width" : 870.88000000000011,
-            "height" : 109
-          }
-        },
-        {
-          "text" : "pasted-image.tiff",
-          "targetRectangle" : {
-            "y" : 752.16078424453735,
-            "x" : 168.52524518966672,
-            "width" : 70.002527236938704,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "24291333.jpeg",
-          "targetRectangle" : {
-            "y" : 385.72353553771973,
-            "x" : 249.36252689361569,
-            "width" : 70.002527236938732,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "Delivery",
-          "targetRectangle" : {
-            "y" : 217.68743920326233,
-            "x" : 1684.2131762504578,
-            "width" : 106.28800000000001,
-            "height" : 38
-          }
-        },
-        {
           "text" : "Work split",
           "targetRectangle" : {
             "y" : 598.63632202148438,
@@ -19211,39 +19238,12 @@
           }
         },
         {
-          "text" : "21950165_10211898665120757_6344916784831772655_o.jpg",
-          "targetRectangle" : {
-            "y" : 671.33465003967285,
-            "x" : 113.45766925811765,
-            "width" : 70.002527236938704,
-            "height" : 70.001265525818098
-          }
-        },
-        {
           "text" : "Front-end final dev",
           "targetRectangle" : {
             "y" : 374.90628051757812,
             "x" : 508.80445911373187,
             "width" : 242.78799999999995,
             "height" : 38
-          }
-        },
-        {
-          "text" : "pasted-image.tiff",
-          "targetRectangle" : {
-            "y" : 774.18903732299805,
-            "x" : 279.93910503387451,
-            "width" : 70.002527236938704,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "3b595f18-405d-416c-a66b-b9c85fbf3fd6.jpg",
-          "targetRectangle" : {
-            "y" : 495.40213367342949,
-            "x" : 202.8331055641174,
-            "width" : 70.002527236938732,
-            "height" : 70.001265525818098
           }
         }
       ],
@@ -24544,11 +24544,74 @@
       ],
       "accessibility" : [
         {
+          "text" : "Delivery",
+          "targetRectangle" : {
+            "y" : 217.68743920326233,
+            "x" : 1684.2131762504578,
+            "width" : 106.28800000000001,
+            "height" : 38
+          }
+        },
+        {
+          "text" : "pasted-image.tiff",
+          "targetRectangle" : {
+            "y" : 774.18903732299805,
+            "x" : 279.93910503387451,
+            "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
           "text" : "pasted-image.tiff",
           "targetRectangle" : {
             "y" : 671.33467102050781,
             "x" : 272.23567485809326,
             "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "24291333.jpeg",
+          "targetRectangle" : {
+            "y" : 385.72353553771973,
+            "x" : 249.36252689361569,
+            "width" : 70.002527236938732,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "Test and Documentation",
+          "targetRectangle" : {
+            "y" : 13.999998331069946,
+            "x" : 525.61822509765625,
+            "width" : 870.88000000000011,
+            "height" : 109
+          }
+        },
+        {
+          "text" : "21950165_10211898665120757_6344916784831772655_o.jpg",
+          "targetRectangle" : {
+            "y" : 671.33465003967285,
+            "x" : 113.45766925811765,
+            "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "pasted-image.tiff",
+          "targetRectangle" : {
+            "y" : 752.16078424453735,
+            "x" : 168.52524518966672,
+            "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "3b595f18-405d-416c-a66b-b9c85fbf3fd6.jpg",
+          "targetRectangle" : {
+            "y" : 495.40213367342949,
+            "x" : 202.8331055641174,
+            "width" : 70.002527236938732,
             "height" : 70.001265525818098
           }
         },
@@ -24580,42 +24643,6 @@
           }
         },
         {
-          "text" : "Test and Documentation",
-          "targetRectangle" : {
-            "y" : 13.999998331069946,
-            "x" : 525.61822509765625,
-            "width" : 870.88000000000011,
-            "height" : 109
-          }
-        },
-        {
-          "text" : "pasted-image.tiff",
-          "targetRectangle" : {
-            "y" : 752.16078424453735,
-            "x" : 168.52524518966672,
-            "width" : 70.002527236938704,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "24291333.jpeg",
-          "targetRectangle" : {
-            "y" : 385.72353553771973,
-            "x" : 249.36252689361569,
-            "width" : 70.002527236938732,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "Delivery",
-          "targetRectangle" : {
-            "y" : 217.68743920326233,
-            "x" : 1684.2131762504578,
-            "width" : 106.28800000000001,
-            "height" : 38
-          }
-        },
-        {
           "text" : "Work split",
           "targetRectangle" : {
             "y" : 598.63632202148438,
@@ -24643,39 +24670,12 @@
           }
         },
         {
-          "text" : "21950165_10211898665120757_6344916784831772655_o.jpg",
-          "targetRectangle" : {
-            "y" : 671.33465003967285,
-            "x" : 113.45766925811765,
-            "width" : 70.002527236938704,
-            "height" : 70.001265525818098
-          }
-        },
-        {
           "text" : "Front-end final dev",
           "targetRectangle" : {
             "y" : 374.90628051757812,
             "x" : 508.80445911373187,
             "width" : 242.78799999999995,
             "height" : 38
-          }
-        },
-        {
-          "text" : "pasted-image.tiff",
-          "targetRectangle" : {
-            "y" : 774.18903732299805,
-            "x" : 279.93910503387451,
-            "width" : 70.002527236938704,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "3b595f18-405d-416c-a66b-b9c85fbf3fd6.jpg",
-          "targetRectangle" : {
-            "y" : 495.40213367342949,
-            "x" : 202.8331055641174,
-            "width" : 70.002527236938732,
-            "height" : 70.001265525818098
           }
         }
       ],
@@ -32016,11 +32016,83 @@
       ],
       "accessibility" : [
         {
+          "text" : "Delivery",
+          "targetRectangle" : {
+            "y" : 217.68743920326233,
+            "x" : 1684.2131762504578,
+            "width" : 106.28800000000001,
+            "height" : 38
+          }
+        },
+        {
+          "text" : "pasted-image.tiff",
+          "targetRectangle" : {
+            "y" : 774.18903732299805,
+            "x" : 279.93910503387451,
+            "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
           "text" : "pasted-image.tiff",
           "targetRectangle" : {
             "y" : 671.33467102050781,
             "x" : 272.23567485809326,
             "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "24291333.jpeg",
+          "targetRectangle" : {
+            "y" : 385.72353553771973,
+            "x" : 249.36252689361569,
+            "width" : 70.002527236938732,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "Test and Documentation",
+          "targetRectangle" : {
+            "y" : 13.999998331069946,
+            "x" : 525.61822509765625,
+            "width" : 870.88000000000011,
+            "height" : 109
+          }
+        },
+        {
+          "text" : "Final presentation development",
+          "targetRectangle" : {
+            "y" : 272.12754821777344,
+            "x" : 1068.1883529594622,
+            "width" : 410.03199999999993,
+            "height" : 38
+          }
+        },
+        {
+          "text" : "21950165_10211898665120757_6344916784831772655_o.jpg",
+          "targetRectangle" : {
+            "y" : 671.33465003967285,
+            "x" : 113.45766925811765,
+            "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "pasted-image.tiff",
+          "targetRectangle" : {
+            "y" : 752.16078424453735,
+            "x" : 168.52524518966672,
+            "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "3b595f18-405d-416c-a66b-b9c85fbf3fd6.jpg",
+          "targetRectangle" : {
+            "y" : 495.40213367342949,
+            "x" : 202.8331055641174,
+            "width" : 70.002527236938732,
             "height" : 70.001265525818098
           }
         },
@@ -32052,51 +32124,6 @@
           }
         },
         {
-          "text" : "Test and Documentation",
-          "targetRectangle" : {
-            "y" : 13.999998331069946,
-            "x" : 525.61822509765625,
-            "width" : 870.88000000000011,
-            "height" : 109
-          }
-        },
-        {
-          "text" : "pasted-image.tiff",
-          "targetRectangle" : {
-            "y" : 752.16078424453735,
-            "x" : 168.52524518966672,
-            "width" : 70.002527236938704,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "24291333.jpeg",
-          "targetRectangle" : {
-            "y" : 385.72353553771973,
-            "x" : 249.36252689361569,
-            "width" : 70.002527236938732,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "Final presentation development",
-          "targetRectangle" : {
-            "y" : 272.12754821777344,
-            "x" : 1068.1883529594622,
-            "width" : 410.03199999999993,
-            "height" : 38
-          }
-        },
-        {
-          "text" : "Delivery",
-          "targetRectangle" : {
-            "y" : 217.68743920326233,
-            "x" : 1684.2131762504578,
-            "width" : 106.28800000000001,
-            "height" : 38
-          }
-        },
-        {
           "text" : "Work split",
           "targetRectangle" : {
             "y" : 598.63632202148438,
@@ -32124,39 +32151,12 @@
           }
         },
         {
-          "text" : "21950165_10211898665120757_6344916784831772655_o.jpg",
-          "targetRectangle" : {
-            "y" : 671.33465003967285,
-            "x" : 113.45766925811765,
-            "width" : 70.002527236938704,
-            "height" : 70.001265525818098
-          }
-        },
-        {
           "text" : "Front-end final dev",
           "targetRectangle" : {
             "y" : 374.90628051757812,
             "x" : 508.80445911373187,
             "width" : 242.78799999999995,
             "height" : 38
-          }
-        },
-        {
-          "text" : "pasted-image.tiff",
-          "targetRectangle" : {
-            "y" : 774.18903732299805,
-            "x" : 279.93910503387451,
-            "width" : 70.002527236938704,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "3b595f18-405d-416c-a66b-b9c85fbf3fd6.jpg",
-          "targetRectangle" : {
-            "y" : 495.40213367342949,
-            "x" : 202.8331055641174,
-            "width" : 70.002527236938732,
-            "height" : 70.001265525818098
           }
         }
       ],
@@ -37159,11 +37159,83 @@
       ],
       "accessibility" : [
         {
+          "text" : "Delivery",
+          "targetRectangle" : {
+            "y" : 217.68743920326233,
+            "x" : 1684.2131762504578,
+            "width" : 106.28800000000001,
+            "height" : 38
+          }
+        },
+        {
+          "text" : "pasted-image.tiff",
+          "targetRectangle" : {
+            "y" : 774.18903732299805,
+            "x" : 279.93910503387451,
+            "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
           "text" : "pasted-image.tiff",
           "targetRectangle" : {
             "y" : 671.33467102050781,
             "x" : 272.23567485809326,
             "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "24291333.jpeg",
+          "targetRectangle" : {
+            "y" : 385.72353553771973,
+            "x" : 249.36252689361569,
+            "width" : 70.002527236938732,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "Test and Documentation",
+          "targetRectangle" : {
+            "y" : 13.999998331069946,
+            "x" : 525.61822509765625,
+            "width" : 870.88000000000011,
+            "height" : 109
+          }
+        },
+        {
+          "text" : "Final presentation development",
+          "targetRectangle" : {
+            "y" : 272.12754821777344,
+            "x" : 1068.1883529594622,
+            "width" : 410.03199999999993,
+            "height" : 38
+          }
+        },
+        {
+          "text" : "21950165_10211898665120757_6344916784831772655_o.jpg",
+          "targetRectangle" : {
+            "y" : 671.33465003967285,
+            "x" : 113.45766925811765,
+            "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "pasted-image.tiff",
+          "targetRectangle" : {
+            "y" : 752.16078424453735,
+            "x" : 168.52524518966672,
+            "width" : 70.002527236938704,
+            "height" : 70.001265525818098
+          }
+        },
+        {
+          "text" : "3b595f18-405d-416c-a66b-b9c85fbf3fd6.jpg",
+          "targetRectangle" : {
+            "y" : 495.40213367342949,
+            "x" : 202.8331055641174,
+            "width" : 70.002527236938732,
             "height" : 70.001265525818098
           }
         },
@@ -37195,51 +37267,6 @@
           }
         },
         {
-          "text" : "Test and Documentation",
-          "targetRectangle" : {
-            "y" : 13.999998331069946,
-            "x" : 525.61822509765625,
-            "width" : 870.88000000000011,
-            "height" : 109
-          }
-        },
-        {
-          "text" : "pasted-image.tiff",
-          "targetRectangle" : {
-            "y" : 752.16078424453735,
-            "x" : 168.52524518966672,
-            "width" : 70.002527236938704,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "24291333.jpeg",
-          "targetRectangle" : {
-            "y" : 385.72353553771973,
-            "x" : 249.36252689361569,
-            "width" : 70.002527236938732,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "Final presentation development",
-          "targetRectangle" : {
-            "y" : 272.12754821777344,
-            "x" : 1068.1883529594622,
-            "width" : 410.03199999999993,
-            "height" : 38
-          }
-        },
-        {
-          "text" : "Delivery",
-          "targetRectangle" : {
-            "y" : 217.68743920326233,
-            "x" : 1684.2131762504578,
-            "width" : 106.28800000000001,
-            "height" : 38
-          }
-        },
-        {
           "text" : "Work split",
           "targetRectangle" : {
             "y" : 598.63632202148438,
@@ -37267,39 +37294,12 @@
           }
         },
         {
-          "text" : "21950165_10211898665120757_6344916784831772655_o.jpg",
-          "targetRectangle" : {
-            "y" : 671.33465003967285,
-            "x" : 113.45766925811765,
-            "width" : 70.002527236938704,
-            "height" : 70.001265525818098
-          }
-        },
-        {
           "text" : "Front-end final dev",
           "targetRectangle" : {
             "y" : 374.90628051757812,
             "x" : 508.80445911373187,
             "width" : 242.78799999999995,
             "height" : 38
-          }
-        },
-        {
-          "text" : "pasted-image.tiff",
-          "targetRectangle" : {
-            "y" : 774.18903732299805,
-            "x" : 279.93910503387451,
-            "width" : 70.002527236938704,
-            "height" : 70.001265525818098
-          }
-        },
-        {
-          "text" : "3b595f18-405d-416c-a66b-b9c85fbf3fd6.jpg",
-          "targetRectangle" : {
-            "y" : 495.40213367342949,
-            "x" : 202.8331055641174,
-            "width" : 70.002527236938732,
-            "height" : 70.001265525818098
           }
         }
       ],

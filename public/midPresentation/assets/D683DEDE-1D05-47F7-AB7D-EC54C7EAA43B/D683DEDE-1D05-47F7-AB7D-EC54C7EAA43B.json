@@ -665,7 +665,7 @@
                 "endTime" : 11.139666557312012,
                 "startTime" : 0,
                 "asset" : "particles.mov-0.0000-11.1397",
-                "loopMode" : "loopBackAndForth"
+                "loopMode" : "looping"
               },
               "duration" : 0,
               "type" : "buildIn",
