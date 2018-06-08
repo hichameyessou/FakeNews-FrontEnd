@@ -24,7 +24,8 @@ router.get('/', function(req, res, next) {
 			sadness: "Sadness 😞",
 			analytical: "Analytical 🤔",
 			confident: "Confident 😎",
-			tentative: "Tentative 😉"
+			tentative: "Tentative 😉",
+			disgust: "Disgust 🤢"
 		}
 	});
 });
