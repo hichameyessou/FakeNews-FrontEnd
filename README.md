@@ -10,4 +10,4 @@
 Polytechnic University of Milan - Digital Business Innovation Lab - A.Y. 2017/18
 
 ## Useful links
-- [Website](http://fakenews.eu-de.mybluemix.net/)
+- [Website](https://fakenews-polimi.herokuapp.com/)
