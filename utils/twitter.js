@@ -1,8 +1,8 @@
 var request = require('request');
 
 //Twitter API Keys
-var consumerKey = "ncA4vA2bwaKuEaUVf6RJUfHON";
-var consumerSecret = "5SMe0zFj9HzfIRG3gVkUEbH6MprggAGnPC970dvwgQSKAdtpfu";
+var consumerKey = "consumerKey";
+var consumerSecret = "consumerSecret";
 var encodedConsumer = consumerKey+":"+consumerSecret;
 var token = Buffer.from(encodedConsumer).toString('base64');
 var bearer = null;

@@ -5,8 +5,8 @@ module.exports = {
 	getHTML: function(id,externalCallback) {
 		tokenTweet.getTwitterToken(function (accessToken){
 			var client = new Twitter({
-				consumer_key: 'ncA4vA2bwaKuEaUVf6RJUfHON',
-				consumer_secret: '5SMe0zFj9HzfIRG3gVkUEbH6MprggAGnPC970dvwgQSKAdtpfu',
+				consumer_key: 'consumer_key',
+				consumer_secret: 'consumer_secret',
 				bearer_token: accessToken
 			});	
 
